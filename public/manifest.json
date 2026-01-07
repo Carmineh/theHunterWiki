@@ -5,9 +5,9 @@
     "name": "theHunterWiki",
     "version": "1.0.0",
     "minimum-overwolf-version": "0.198.0",
-    "author": "https://github.com/Carmineh",
+    "author": "Manny",
     "description": "Overwolf extension for theHunter: COTW. Keep a complete wiki always at hand directly in-game.",
-    "dock_button_title": "Wiki",
+    "dock_button_title": "theHunterWiki",
     "icon": "icons/IconMouseNormal.png",
     "launcher_icon": "icons/IconMouseNormal.png"
   },
