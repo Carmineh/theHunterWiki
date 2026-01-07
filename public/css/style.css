@@ -1,0 +1,267 @@
+body {
+    background-color: rgba(20, 20, 20, 0.96); /* Sfondo scuro quasi opaco */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Nasconde scrollbar del body (gestito dal main) */
+    border: 1px solid #444; /* Bordo finestra */
+    user-select: none; /* Impedisce la selezione del testo (stile app nativa) */
+}
+
+/* Scrollbar personalizzata */
+::-webkit-scrollbar { width: 8px; background: #222; }
+::-webkit-scrollbar-thumb { background: #555; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #ff8800; }
+
+/* Utility */
+.hidden { display: none !important; }
+.view { animation: fadeIn 0.3s ease; padding-bottom: 20px; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+/* =========================================
+   2. HEADER E RICERCA
+   ========================================= */
+header {
+    background-color: #111;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ff8800;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    z-index: 100;
+    position: relative;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: white;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.logo span { color: #ff8800; }
+
+/* Wrapper Ricerca */
+.search-wrapper { flex-grow: 1; position: relative; }
+
+#search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+#search-bar:focus { border-color: #ff8800; background-color: #2a2a2a; }
+
+/* Dropdown Risultati */
+.search-dropdown {
+    position: absolute;
+    top: 100%; left: 0; width: 100%;
+    background: #1e1e1e;
+    border: 1px solid #ff8800;
+    border-top: none;
+    max-height: 250px;
+    overflow-y: auto;
+    z-index: 200;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+}
+.search-item { padding: 12px 15px; cursor: pointer; border-bottom: 1px solid #333; color: #ccc; }
+.search-item:hover { background: #ff8800; color: #000; font-weight: bold; }
+
+/* =========================================
+   3. MAIN CONTENT
+   ========================================= */
+main {
+    height: calc(100vh - 76px); /* Altezza viewport meno l'header */
+    overflow-y: auto;
+    padding: 20px 30px;
+}
+
+h2 { color: #fff; margin-bottom: 20px; font-weight: 400; border-left: 4px solid #ff8800; padding-left: 10px; }
+
+/* Pulsanti Navigazione */
+.btn-back {
+    background: transparent;
+    border: 1px solid #555;
+    color: #888;
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: inline-flex; align-items: center; gap: 5px;
+    transition: all 0.2s;
+}
+.btn-back:hover { border-color: #ff8800; color: #ff8800; }
+
+.view-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.view-header h2 { margin-bottom: 0; border: none; }
+
+/* =========================================
+   4. GRIGLIE (MAPPE E LISTA ANIMALI) - MINIMAL
+   ========================================= */
+.maps-grid, .animals-grid {
+    display: grid;
+    /* Colonne un po' più larghe per far respirare le immagini */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 30px; /* Più spazio tra gli elementi */
+}
+
+.minimal-item {
+    cursor: pointer;
+    text-align: center;
+    /* Spostata la transizione sul wrapper interno */
+    position: relative;
+}
+
+/* Contenitore immagine TRASPARENTE */
+.item-img-wrapper {
+    position: relative;
+    /* Rimosso background e border solido */
+    background: transparent;
+    /* Mantiene lo spazio rettangolare */
+    aspect-ratio: 16/9;
+    border-radius: 8px; /* Arrotondamento leggero all'immagine stessa */
+    overflow: visible; /* Lascia che il glow esca dai bordi */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Effetto Hover: Zoom leggero e Glow Arancione attorno alla forma dell'immagine */
+.minimal-item:hover .item-img-wrapper {
+    transform: scale(1.08); /* Ingrandisce leggermente */
+    /* drop-shadow crea l'ombra attorno alla forma esatta del PNG trasparente */
+    filter: drop-shadow(0 0 10px rgba(255, 136, 0, 0.7));
+}
+
+.item-img {
+    width: 100%; height: 100%;
+    /* 'contain' assicura che l'icona si veda tutta senza tagli,
+       utile se sono PNG trasparenti di forme diverse */
+    object-fit: contain;
+    display: block;
+}
+
+/* Badge Classe nella griglia */
+.grid-class-badge {
+    position: absolute; top: 0; right: 0; /* Spostato proprio all'angolo */
+    width: 28px; height: 28px;
+    background: rgba(20, 20, 20, 0.9); /* Sfondo scuro per contrasto */
+    border: 1px solid #ff8800;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    z-index: 2; /* Assicura che sia sopra l'immagine */
+}
+
+.item-title {
+    display: block;
+    margin-top: 15px; /* Più spazio tra immagine e testo */
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Leggera ombra per staccare dal fondo */
+}
+.minimal-item:hover .item-title { color: #ff8800; }
+
+/* =========================================
+   5. PAGINA DETTAGLIO ANIMALE
+   ========================================= */
+.animal-detail { animation: fadeIn 0.4s ease; max-width: 900px; margin: 0 auto; }
+
+/* Header Animale: Icona+Nome sx, Classe dx */
+.animal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.header-left { display: flex; align-items: center; gap: 20px; }
+
+.animal-icon-large {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    border: 3px solid #ff8800;
+    background: #111;
+    object-fit: cover;
+    padding: 2px;
+}
+
+.animal-header h1 {
+    color: #ff8800;
+    font-size: 2.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.header-right { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+
+.header-class-icon { width: 64px; height: 64px; object-fit: contain; }
+.class-label { font-size: 0.8rem; color: #666; text-transform: uppercase; }
+
+/* Stats Row */
+.stats-row { display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap; }
+
+.stat-box {
+    background: #252525;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border-left: 3px solid #ff8800;
+    flex: 1;
+    min-width: 120px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.stat-label { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 4px; }
+.stat-value { font-size: 1.1rem; color: #fff; font-weight: 600; }
+
+/* Layout 2 colonne: Need Zones vs Variants */
+.details-split {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+@media(min-width: 800px) { .details-split { grid-template-columns: 1fr 1fr; } }
+
+.section-title { color: #ddd; font-size: 1.2rem; margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 5px; }
+
+/* Need Zones List */
+.zone-list { list-style: none; padding: 0; }
+.zone-item {
+    display: flex; align-items: center; gap: 15px;
+    padding: 10px; margin-bottom: 8px;
+    background: #222; border-radius: 4px; border: 1px solid #333;
+}
+.zone-icon { width: 32px; height: 32px; filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); }
+.zone-time { font-family: 'Consolas', monospace; font-size: 1.1rem; color: #ff8800; font-weight: bold; }
+.zone-activity { margin-left: auto; color: #aaa; text-transform: capitalize; }
+
+/* Variants */
+.variant-category { margin-bottom: 20px; }
+.variant-category h4 { color: #888; font-size: 0.9rem; margin-bottom: 8px; text-transform: uppercase; }
+
+.variant-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.variant-tags span {
+    background: #333; color: #ddd;
+    padding: 5px 10px; border-radius: 4px; font-size: 0.9rem;
+    border: 1px solid #444;
+}
+
+/* Very Rare Style */
+.variant-tags.rare span {
+    background: #3d2a10; color: #ffaa55;
+    border-color: #ff8800;
+    box-shadow: 0 0 5px rgba(255, 136, 0, 0.2);
+}

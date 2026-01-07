@@ -1,0 +1,54 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "HunterWiki",
+    "version": "1.0.0",
+    "minimum-overwolf-version": "0.198.0",
+    "author": "Manny",
+    "description": "Wiki Overlay",
+    "dock_button_title": "Wiki",
+    "icon": "icons/IconMouseNormal.png",
+    "launcher_icon": "icons/IconMouseNormal.png"
+  },
+  "permissions": [ "GameInfo", "FileSystem", "Hotkeys" ],
+  "data": {
+    "start_window": "background",
+    "hotkeys": {
+      "show_hide_wiki": {
+        "title": "Mostra/Nascondi Wiki",
+        "action-type": "custom",
+        "default": "Ctrl+B"
+      }
+    },
+    "windows": {
+      "background": {
+        "file": "background.html",
+        "is_background_page": true,
+        "visible": false
+      },
+      "in_game": {
+        "file": "in_game.html",
+        "in_game_only": true,
+        "resizable": true,
+        "transparent": true,
+        "size": { "width": 1100, "height": 700 },
+        "keep_window_open": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "grab_keyboard_focus": true,
+        "grab_focus_on_show": true
+      }
+    },
+    "game_targeting": {
+      "type": "dedicated",
+      "game_ids": [23010]
+    },
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": { "game_ids": [23010] },
+        "start_minimized": true
+      }
+    ]
+  }
+}

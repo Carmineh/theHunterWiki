@@ -1,0 +1,600 @@
+[
+    {
+        "Name": "Canada Goose",
+        "id": "canada_goose",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Weight",
+        "Weight": "3.2kg — 9.2kg7lbs — 20lbs",
+        "Plumage": "Albino, Brown Hybrid, Grey, Grey Brown, Light Grey Leucistic, Melanistic, White Hybrid",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00 - 11:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey Brown (74.90%)",
+                        "Grey (25.00%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.02%)",
+                        "Brown Hybrid (0.02%)",
+                        "Light Grey Leucistic (0.02%)",
+                        "Melanistic (0.02%)",
+                        "White Hybrid (0.02%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Ring-Necked Pheasant",
+        "id": "ring_necked_pheasant",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy10: Fabled",
+        "Trophy Type": "Combined",
+        "Weight": "500g — 3kg1.1lbs — 7lbs",
+        "Plumage": "Albino , Brown, Grey, Leucistic, Melanistic, Molting, White BrownFabled Exclusive: Citrine, Emerald, Garnet, Morganite, Obsidian, Pearl, Ruby, Sapphire",
+        "Need_Zones": [
+            {
+                "Time": "00:00-04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00-08:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00-11:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00-14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00-18:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "18:00-21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00-00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "White Brown (37.45%)",
+                        "Brown (37.45%)",
+                        "Molting (12.50%)",
+                        "Grey (12.50%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.03%)",
+                        "Leucistic (0.03%)",
+                        "Melanistic (0.03%)"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown (87.98%)",
+                        "Grey (11.78%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.08%)",
+                        "Leucistic (0.08%)",
+                        "Melanistic (0.08%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "European Rabbit",
+        "id": "european_rabbit",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "900g — 2.6kg2lbs — 6lbs",
+        "Fur": "Albino, Brown, Dark-Brown, Leucistic, Light Brown, Light Grey, Melanistic, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 09:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "09:00 - 12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00 - 16:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "16:00 - 18:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 22:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "22:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Tan (37.35%)",
+                        "Dark Brown (37.35%)",
+                        "Light Brown (12.50%)",
+                        "Brown (12.50%)"
+                    ],
+                    "Rare": [
+                        "Melanistic (0.10%)",
+                        "Light Grey (0.10%)"
+                    ],
+                    "Very Rare": [
+                        "Leucistic (0.05%)",
+                        "Albino (0.05%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Red Fox",
+        "id": "red_fox",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+        "Trophy Type": "Weight",
+        "Weight": "1kg — 15.4kg2lbs — 34lbs",
+        "Fur": "Albino, Dark Red, Melanistic, Orange, Piebald, RedFabled Exclusive: Blood Moon, Candycane, Cherry Blossom, Licorice, Midnight Poppy, Mystic Snowdrop, Peppermint, Rosebud Frost, Scarlet Nightshade",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "04:00 - 07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 13:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 20:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "20:00 - 00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Dark Red (33.23%)",
+                        "Orange (33.23%)",
+                        "Red (33.23%)"
+                    ],
+                    "Rare": [
+                        "Piebald (0.20%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.05%)",
+                        "Melanistic (0.05%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Roe Deer",
+        "id": "roe_deer",
+        "Class": "3",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Antlers",
+        "Weight": "? — 35 kg? — 77lbs",
+        "Fur": "Albino, Brown, Dark Brown, Dark Grey, Leucistic, Melanistic, Orange, Piebald, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 17:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "17:00 - 20:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Dark Grey (33.15%)",
+                        "Dark Brown (33.15%)",
+                        "Brown (33.15%)"
+                    ],
+                    "Rare": [
+                        "Piebald Variation 1 (0.20%)",
+                        "Piebald Variation 2 (0.20%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.05%)",
+                        "Leucistic (0.05)",
+                        "Melanistic (0.05%)"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Tan (33.20%)",
+                        "Orange (33.20%)",
+                        "Brown (33.20%)"
+                    ],
+                    "Rare": [
+                        "Piebald (0.20%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.05%)",
+                        "Leucistic (0.05 %)",
+                        "Melanistic (0.05%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Fallow Deer",
+        "id": "fallow_deer",
+        "Class": "4",
+        "Difficulty": "1: Trivial — 5: Medium10: Fabled",
+        "Trophy Type": "Antlers",
+        "Weight": "30kg — 100kg66lbs — 220lbs",
+        "Fur": "Albino, Chocolate, Dark, Dark Spotted, Melanistic, Piebald, Red Spotted, Spotted, WhiteFabled Exclusive: Painted, Golden, Mocha, Hooded, Silver",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00 - 06:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "06:00 - 10:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 13:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "13:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Dark Spotted (14.93%)",
+                        "Spotted (29.86%)",
+                        "Dark (29.86%)",
+                        "Chocolate (12.49%)",
+                        "White (12.49%)"
+                    ],
+                    "Rare": [
+                        "Piebald Variation 1 (0.15%)",
+                        "Piebald Variation 2 (0.15%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.04%)",
+                        "Melanistic (0.04%)"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Red Spotted (38.33%)",
+                        "Spotted (38.33%)",
+                        "Dark Spotted (23.00%)"
+                    ],
+                    "Rare": [
+                        "Piebald (0.23%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.06%)",
+                        "Melanistic (0.06%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Wild Boar",
+        "id": "wild_boar",
+        "Class": "5",
+        "Difficulty": "1: Trivial — 5: Medium10: Fabled",
+        "Trophy Type": "Tusks",
+        "Weight": "25kg — 240kg55lbs — 529lbs",
+        "Fur": "Albino, Blackgold, Brown, Dark Brown, Light Brown, Melanistic, PurplegreyFabled Exclusive: Ash, Brindle, Butterscotch, Chalk, Cinder, Scorch, Smolder, Stitch, Stripple",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "03:00 - 06:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "6:00 - 10:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male / Female",
+                "Details": {
+                    "Common": [
+                        "Brown Variation 1 (39.74%)",
+                        "Brown Variation 2 (19.87%)",
+                        "Dark Brown (19.87%)",
+                        "Light Brown (19.87%)"
+                    ],
+                    "Rare": [
+                        "Blackgold (0.24%)",
+                        "Purplegrey (0.24%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.08%)",
+                        "Melanistic (0.08%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Red Deer",
+        "id": "red_deer",
+        "Class": "6",
+        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+        "Trophy Type": "Antlers",
+        "Weight": "120kg — 240kg265lbs — 529lbs",
+        "Fur": "Albino, Brown, Dark Brown, Erythristic, Leucistic, Light Brown, Melanistic, PiebaldFabled Exclusive: Spotted",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00 - 06:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "06:00 - 10:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "10:00 - 13:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 17:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "17:00 - 21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male / Female",
+                "Details": {
+                    "Common": [
+                        "Brown (33.13%)",
+                        "Dark Brown (33.13%)",
+                        "Light Brown (33.13%)"
+                    ],
+                    "Rare": [
+                        "Piebald Variation 1 (0.20%)",
+                        "Piebald Variation 2 (0.20%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.05%)",
+                        "Erythristic (0.05%)",
+                        "Leucistic (0.05%)",
+                        "Melanistic (0.05%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "European Bison",
+        "id": "european_bison",
+        "Class": "9",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "300kg — 920kg661lbs — 2028lbs",
+        "Fur": "Albino, Brown, Dark-Brown, Light Brown, Melanistic, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 14:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "14:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 20:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Light Brown (33.23%)",
+                        "Dark Brown (33.23%)",
+                        "Brown (33.23%)"
+                    ],
+                    "Rare": [
+                        "Piebald (0.20%)"
+                    ],
+                    "Very Rare": [
+                        "Albino (0.05%)",
+                        "Melanistic (0.05%)"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    }
+]
