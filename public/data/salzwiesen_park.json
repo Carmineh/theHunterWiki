@@ -1,0 +1,962 @@
+[
+    {
+        "Name": "Eurasian Teal",
+        "id": "eurasian_teal",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "300g — 400g0.7lbs — 0.9lbs",
+        "Plumage": "Dark Green, Light Green, Hybrid Green, Hybrid Blue, Leucistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Light Green,",
+                        "Dark Green"
+                    ],
+                    "Very Rare": [
+                        "Hybrid Blue,",
+                        "Hybrid Green,",
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown"
+                    ],
+                    "Rare": [
+                        "Leucistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Eurasian Wigeon",
+        "id": "eurasian_wigeon",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "500g — 920g1.1lbs — 2lbs",
+        "Plumage": "Brown, Dark, Eclipse, Grey, Hybrid, Leucistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Eclipse"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2,",
+                        "Hybrid"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Dark"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Tundra Bean Goose",
+        "id": "tundra_bean_goose",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Weight",
+        "Weight": "1.9kg — 3.5kg4lbs — 8lbs",
+        "Plumage": "Brown, Dark Grey, Leucistic , Light Grey",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "9:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Dark Grey,",
+                        "Light Grey"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2,",
+                        "Leucistic Variation 3"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Ferruginous Duck",
+        "id": "ferruginous_duck",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Plumage": "Albino, Dark Brown, Leucistic, Melanistic, Red Brown",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male / Female",
+                "Details": {
+                    "Common": [
+                        "Dark Brown,",
+                        "Red Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Greylag Goose",
+        "id": "greylag_goose",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Weight",
+        "Weight": "2.5kg — 4kg6lbs — 9lbs",
+        "Plumage": "Brown, Grey, Hybrid, Leucistic",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey"
+                    ],
+                    "Very Rare": [
+                        "Hybrid,",
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2,",
+                        "Leucistic Variation 3,",
+                        "Leucistic Variation 4,",
+                        "Leucistic Variation 5"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Gadwall",
+        "id": "gadwall",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Plumage": "Albino, Brown, Eclipse, Grey, Leucistic, Melanistic",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Eclipse"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "European Rabbit",
+        "id": "european_rabbit",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "900g — 2.6kg2lbs — 6lbs",
+        "Fur": "Albino, Brown, Dark-Brown, Leucistic, Light Brown, Light Grey, Melanistic, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 09:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "09:00 - 12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00 - 16:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "16:00 - 18:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 22:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "22:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Tan,",
+                        "Dark Brown,",
+                        "Light Brown,",
+                        "Brown"
+                    ],
+                    "Rare": [
+                        "Melanistic,",
+                        "Light Grey"
+                    ],
+                    "Very Rare": [
+                        "Leucistic,",
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Goldeneye",
+        "id": "goldeneye",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "600g — 1300g1.3lbs — 2.9lbs",
+        "Plumage": "Black, Grey, Dark, Eclipse, Hybrid, Leucistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Black"
+                    ],
+                    "Rare": [
+                        "Eclipse"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2,",
+                        "Hybrid Variation 1,",
+                        "Hybrid Variation 2"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Dark"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Ring-Necked Pheasant",
+        "id": "ring_necked_pheasant",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy10: Fabled",
+        "Trophy Type": "Combined",
+        "Weight": "500g — 3kg1.1lbs — 7lbs",
+        "Plumage": "Albino , Brown, Grey, Leucistic, Melanistic, Molting, White BrownFabled Exclusive: Citrine, Emerald, Garnet, Morganite, Obsidian, Pearl, Ruby, Sapphire",
+        "Need_Zones": [
+            {
+                "Time": "00:00-04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00-08:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00-11:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00-14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00-18:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "18:00-21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00-00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "White Brown,",
+                        "Brown,",
+                        "Molting,",
+                        "Grey"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Mallard",
+        "id": "mallard",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "0.72kg — 2.1kg2lbs — 5lbs",
+        "Plumage": "Black-Brown, Blonde, Brown Hybrid, Leucistic, Melanistic, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00-05:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00-07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00-09:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00-11:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00-13:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00-15:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00-17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00-29:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00-00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Black Brown,",
+                        "Piebald,",
+                        "Brown Hybrid"
+                    ],
+                    "Rare": [
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Black Brown,",
+                        "Piebald,",
+                        "Brown Hybrid"
+                    ],
+                    "Rare": [
+                        "Blonde,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Black Grouse",
+        "id": "black_grouse",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Combined",
+        "Weight": "700g — 1250g1.5lbs — 2.8lbs",
+        "Plumage": "Brown, Dark, Gold, Leucistic, Melanistic, Orange",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 08:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 14:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 18:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Dark"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2,",
+                        "Leucistic Variation 3,",
+                        "Melanistic Variation 1,",
+                        "Melanistic Variation 2"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown",
+                        "Dark"
+                    ],
+                    "Rare": [
+                        "Gold,",
+                        "Orange"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Tufted Duck",
+        "id": "tufted_duck",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "630g — 1000g1.4lbs — 2.2lbs",
+        "Plumage": "Albino, Brown, Black, Cream, Eclipse, Leucistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "9:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Black"
+                    ],
+                    "Rare": [
+                        "Eclipse"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown"
+                    ],
+                    "Rare": [
+                        "Cream"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Common Raccoon",
+        "id": "common_raccoon",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Weight",
+        "Weight": "3kg — 13kg7lbs — 29lbs",
+        "Fur": "Albino, Blonde, Blonde Piebald, Brown, Grey, Grey Piebald, Melanistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "13:00 - 16:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Brown,",
+                        "Blonde"
+                    ],
+                    "Rare": [
+                        "Piebald Grey,",
+                        "Piebald Blonde"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Blonde"
+                    ],
+                    "Rare": [
+                        "Piebald Grey,",
+                        "Piebald Blonde"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Raccoon Dog",
+        "id": "raccoon_dog",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Weight",
+        "Weight": "? — 10kg? — 22lbs",
+        "Fur": "Albino, Black White, Dark Brown, Light Brown, Grey, Orange, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "13:00 - 16:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male / Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Light Brown,",
+                        "Black-White"
+                    ],
+                    "Rare": [
+                        "Dark Brown,",
+                        "Orange"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Piebald Variation 1,",
+                        "Piebald Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Red Fox",
+        "id": "red_fox",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+        "Trophy Type": "Weight",
+        "Weight": "1kg — 15.4kg2lbs — 34lbs",
+        "Fur": "Albino, Dark Red, Melanistic, Orange, Piebald, RedFabled Exclusive: Blood Moon, Candycane, Cherry Blossom, Licorice, Midnight Poppy, Mystic Snowdrop, Peppermint, Rosebud Frost, Scarlet Nightshade",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "04:00 - 07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 13:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 20:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "20:00 - 00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Dark Red",
+                        "Orange",
+                        "Red"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    }
+]

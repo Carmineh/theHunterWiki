@@ -1,0 +1,655 @@
+[
+    {
+        "Name": "Eurasian Wigeon",
+        "id": "eurasian_wigeon",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "500g — 920g1.1lbs — 2lbs",
+        "Plumage": "Brown, Dark, Eclipse, Grey, Hybrid, Leucistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Eclipse"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2",
+                        "Hybrid"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Dark"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2 "
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Scrub Hare",
+        "id": "scrub_hare",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "? — 5.8kg? — 13lbs",
+        "Fur": "Brown, Chestnut, Grey, Light Gray",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 14:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 18:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Chestnut"
+                    ],
+                    "Uncommon": [
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Light Grey"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Side-Striped Jackal",
+        "id": "side_striped_jackal",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Weight",
+        "Weight": "? — 14kg? — 31lbs",
+        "Fur": "Albino, Light Brown, Grey, Grey Brown, Melanistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "03:00 - 6:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "6:30 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 14:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 18:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey Brown,",
+                        "Light Brown,",
+                        "Grey"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Springbok",
+        "id": "springbok",
+        "Class": "3",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "27kg — 42kg60lbs — 93lbs",
+        "Fur": "'Albino, Black Brown, Orange, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 08:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 14:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "14:00 - 18:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Orange,",
+                        "Tan"
+                    ],
+                    "Rare": [
+                        "Albino"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Orange,",
+                        "Tan,",
+                        "Black Brown Variation 1,",
+                        "Black Brown Variation 2"
+                    ],
+                    "Very Rare": [
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Warthog",
+        "id": "warthog",
+        "Class": "4",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Tusks",
+        "Weight": "45kg — 150kg99lbs — 331lbs",
+        "Fur": "Albino, Dark, Grey, Red Brown, Red",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "06:00 - 09:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "09:00 - 12:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "12:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 18:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Dark,",
+                        "Red Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Dark,",
+                        "Red Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Red"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Lesser Kudu",
+        "id": "lesser_kudu",
+        "Class": "4",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "50kg — 105kg110lbs — 231lbs",
+        "Fur": "Albino, Grey, Dark Brown, Dusky, Melanistic, Red Brown",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "03:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 14:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 18:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Grey"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Dark Brown"
+                    ],
+                    "Rare": [
+                        "Dusky,",
+                        "Red Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Blue Wildebeest",
+        "id": "blue_wildebeest",
+        "Class": "6",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "190kg — 290kg419lbs — 639lbs",
+        "Fur": "Albino, Crowned, Dark Grey, Gold, Grey",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00 - 09:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "09:00 - 12:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "12:00 - 15:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "15:00 - 18:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Dark Grey,",
+                        "Gold"
+                    ],
+                    "Rare": [
+                        "Albino"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Dark Grey"
+                    ],
+                    "Rare": [
+                        "Crowned,",
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Gemsbok",
+        "id": "gemsbok",
+        "Class": "6",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "100kg — 240kg220lbs — 529lbs",
+        "Fur": "Beige, Dark, Grey, Light Grey, Gold",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "06:00 - 10:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 16:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Light Grey"
+                    ],
+                    "Rare": [
+                        "Gold,",
+                        "Dark,",
+                        "Beige"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Cape Buffalo",
+        "id": "cape_buffalo",
+        "Class": "9",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Horns",
+        "Weight": "360kg — 950kg794lbs — 2094lbs",
+        "Fur": "Albino, Black, Brown, Grey, Leucistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "06:00 - 09:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "9:00 - 12:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "12:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 18:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey",
+                        "Black",
+                        "Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino",
+                        "Leucistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Lion",
+        "id": "lion",
+        "Class": "9",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Skull",
+        "Weight": "135kg — 270kg298lbs — 595lbs",
+        "Fur": "Albino, Blonde, Dark-Brown, Light Brown, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "04:00 - 08:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00 - 12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00 - 15:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "15:00 - 18:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00 - 21:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Tan"
+                    ],
+                    "Uncommon": [
+                        "Light Brown"
+                    ],
+                    "Rare": [
+                        "Dark Brown",
+                        "Blonde",
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    }
+]

@@ -1,0 +1,586 @@
+[
+    {
+        "Name": "Bobwhite Quail",
+        "id": "bobwhite_quail",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Combined",
+        "Weight": "130g — 250g0.3lbs — 0.6lbs",
+        "Plumage": "Albino, Brown, Grey, Red Brown",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 16:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00 - 0:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Red Brown,",
+                        "Grey,",
+                        "Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown"
+                    ],
+                    "Very Rare": [
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Eastern Wild Turkey",
+        "id": "eastern_wild_turkey",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Combined",
+        "Weight": "3.6kg — 11kg8lbs — 24lbs",
+        "Plumage": "Albino, Bronze, Brown, Leucistic, Light Bronze, Light Brown, Melanistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 08:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00 - 11:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 17:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "17:00 - 20:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Bronze,",
+                        "Light Brown,",
+                        "Light Bronze"
+                    ],
+                    "Rare": [
+                        "Leucistic"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Green Winged Teal",
+        "id": "green_winged_teal",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "? — ?",
+        "Plumage": "Albino, Light Green, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 05:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "05:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 09:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "09:00 - 11:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 15:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "15:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 19:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "19:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Light Green"
+                    ],
+                    "Rare": [
+                        "Piebald Variation 1,",
+                        "Piebald Variation 2,",
+                        "Piebald Variation 3"
+                    ],
+                    "Very Rare": [
+                        "Albino"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Light Green"
+                    ],
+                    "Rare": [
+                        "Piebald Variation 1,",
+                        "Piebald Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Eastern Cottontail Rabbit",
+        "id": "eastern_cottontail_rabbit",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Weight",
+        "Weight": "800g — 2.1kg1.8lbs — 5lbs",
+        "Fur": "Albino, Brown, Grey, Leucistic, Light Grey, Melanistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "13:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 21:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Brown,",
+                        "Light Grey,",
+                        "Light Brown"
+                    ],
+                    "Rare": [
+                        "Leucistic Variation 1,",
+                        "Leucistic Variation 2"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Gray Fox",
+        "id": "gray_fox",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Weight",
+        "Weight": "3.1kg — 6.8kg7lbs — 15lbs",
+        "Fur": "Albino, Grey, Leucistic, Melanistic, Piebald, Red, Two Tones",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "04:00 - 07:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "13:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 20:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "20:00 - 0:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Two Tones,",
+                        "Red"
+                    ],
+                    "Very Rare": [
+                        "Piebald Variation 1,",
+                        "Piebald Variation 2,",
+                        "Leucistic,",
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Common Raccoon",
+        "id": "common_raccoon",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Weight",
+        "Weight": "3kg — 13kg7lbs — 29lbs",
+        "Fur": "Albino, Blonde, Blonde Piebald, Brown, Grey, Grey Piebald, Melanistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00 - 10:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 13:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "13:00 - 16:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Grey,",
+                        "Brown,",
+                        "Blonde"
+                    ],
+                    "Rare": [
+                        "Piebald Grey,",
+                        "Piebald Blonde"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Blonde"
+                    ],
+                    "Rare": [
+                        "Piebald Grey,",
+                        "Piebald Blonde"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Whitetail Deer",
+        "id": "whitetail_deer",
+        "Class": "4",
+        "Difficulty": "1: Trivial — 3: Very Easy10: Fabled",
+        "Trophy Type": "Antlers",
+        "Weight": "40kg — 100kg88lbs — 220lbs",
+        "Fur": "Albino, Brown, Dark-Brown, Melanistic, Piebald, Red-Brown, Tan",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Dark Brown,",
+                        "Tan"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Dark Brown,",
+                        "Red Brown"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Wild Hog",
+        "id": "wild_hog",
+        "Class": "5",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Tusks",
+        "Weight": "32kg — 205kg71lbs — 452lbs",
+        "Fur": "Albino, Black, Black Spots, Blackgold, Brown Hybrid, Dark Brown, Pink",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00 - 06:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "06:00 - 10:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00 - 14:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 17:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "17:00 - 20:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Black Spots Variation 1,",
+                        "Black Spots Variation 2,",
+                        "Black,",
+                        "Blackgold,",
+                        "Brown Hybrid Variation 1,",
+                        "Brown Hybrid Variation 2,",
+                        "Dark Brown Variation 1,",
+                        "Dark Brown Variation 2"
+                    ],
+                    "Rare": [
+                        "Pink,",
+                        "Albino"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Black Spots Variation 1,",
+                        "Black Spots Variation 2"
+                    ],
+                    "Rare": [
+                        "Pink"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "American Alligator",
+        "id": "american_alligator",
+        "Class": "7",
+        "Difficulty": "2: Minor — 9: Legendary",
+        "Trophy Type": "Length",
+        "Weight": "75kg — 530kg165lbs — 1168lbs",
+        "Skin": "Albino, Dark-Brown, Melanistic, Olive, Piebald",
+        "Need_Zones": [],
+        "Variants": [],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Black Bear",
+        "id": "black_bear",
+        "Class": "7",
+        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+        "Trophy Type": "Skull",
+        "Weight": "40kg — 290kg409kg , Great One88lbs — 639lbs902lbs , Great One",
+        "Fur": "Black, Blonde, Brown, Cinnamon, Dark, DuskyFabled Exclusive: Glacier, Cream, Spotted, Spirit, Chestnut",
+        "Need_Zones": [
+            {
+                "Time": "00:00-04:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "04:00-08:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "08:00-12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00-16:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00-20:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "20:00-00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Black,",
+                        "Dark,",
+                        "Dusky"
+                    ],
+                    "Rare": [
+                        "Cinnamon"
+                    ],
+                    "Very Rare": [
+                        "Blonde,",
+                        "Brown"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    }
+]

@@ -1,0 +1,452 @@
+[
+    {
+        "Name": "Merriam Turkey",
+        "id": "merriam_turkey",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Combined",
+        "Weight": "3.6kg — 11kg8lbs — 24lbs",
+        "Plumage": "Albino, Brown, Dark-Brown, Leucistic, Light Brown, Melanistic",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Light Brown,",
+                        "Dark Brown"
+                    ],
+                    "Rare": [
+                        "Leucistic"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Pronghorn",
+        "id": "pronghorn",
+        "Class": "3",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "35kg — 65kg77lbs — 143lbs",
+        "Fur": "Albino, Brown, Dark, Leucistic, Melanistic, Piebald, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00-03:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00-06:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "06:00-09:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "09:00-12:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "12:00-15:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "15:00-18:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "18:00-21:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "21:00-00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Tan,",
+                        "Brown,",
+                        "Dark"
+                    ],
+                    "Rare": [
+                        "Piebald Variation 1,",
+                        "Piebald Variation 2"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Tan,",
+                        "Brown,",
+                        "Dark"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Mountain Goat",
+        "id": "mountain_goat",
+        "Class": "4",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "45kg — 145kg99lbs — 320lbs",
+        "Fur": "Albino, Beige, Light Brown, Light Grey, Melanistic, White",
+        "Need_Zones": [
+            {
+                "Time": "00:00-04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00-07:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "07:00-10:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "10:00-13:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "13:00-17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00-20:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00-00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Beige",
+                        "Light Brown",
+                        "Light Grey",
+                        "White"
+                    ],
+                    "Very Rare": [
+                        "Albino",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Rocky Mountain Bighorn Sheep",
+        "id": "rocky_mountain_bighorn_sheep",
+        "Class": "5",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "0kg — 0kg0lbs — 0lbs",
+        "Fur": "Albino, Black, Bronze, Brown, Grey, Leucistic, Melanistic, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00-03:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "03:00-06:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00-09:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "09:00-12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00-16:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "16:00-20:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00-00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown,",
+                        "Grey,",
+                        "Bronze,",
+                        "Black"
+                    ],
+                    "Rare": [
+                        "Leucistic,",
+                        "Piebald Variation 1,",
+                        "Piebald Variation 2"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Mountain Lion",
+        "id": "mountain_lion",
+        "Class": "5",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Skull",
+        "Weight": "29kg — 95kg64lbs — 209lbs",
+        "Fur": "Albino, Dark Red, Grey, Light Brown, Melanistic",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 06:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "00:00 - 03:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "08:00 - 17:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 18:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "18:00 - 00:30",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Light Brown,",
+                        "Grey,",
+                        "Dark Red"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Mule Deer",
+        "id": "mule_deer",
+        "Class": "5",
+        "Difficulty": "1: Trivial — 5: Medium10: Fabled:",
+        "Trophy Type": "Antlers",
+        "Weight": "70kg — 210kg154lbs — 463lbs",
+        "Fur": "Albino, Blonde, Brown, Dilute, Grey, Leucistic, Melanistic, PiebaldFabled Exclusive: Cinnamon Stripes, Cobweb Enigma, Dripple Drizzle, Dusky Drift, Milky Way, Petal Puff",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Blonde",
+                        "Brown",
+                        "Grey"
+                    ],
+                    "Rare": [
+                        "Dilute"
+                    ],
+                    "Very Rare": [
+                        "Albino",
+                        "Leucistic",
+                        "Melanistic",
+                        "Piebald Variation 1",
+                        "Piebald Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Black Bear",
+        "id": "black_bear",
+        "Class": "7",
+        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+        "Trophy Type": "Skull",
+        "Weight": "40kg — 290kg409kg , Great One88lbs — 639lbs902lbs , Great One",
+        "Fur": "Black, Blonde, Brown, Cinnamon, Dark, DuskyFabled Exclusive: Glacier, Cream, Spotted, Spirit, Chestnut",
+        "Need_Zones": [
+            {
+                "Time": "00:00-04:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "04:00-08:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "08:00-12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00-16:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00-20:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "20:00-00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Black,",
+                        "Dark,",
+                        "Dusky"
+                    ],
+                    "Rare": [
+                        "Cinnamon"
+                    ],
+                    "Very Rare": [
+                        "Blonde,",
+                        "Brown"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Rocky Mountain Elk",
+        "id": "rocky_mountain_elk",
+        "Class": "7",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Antlers",
+        "Weight": "200kg — 480kg441lbs — 1058lbs",
+        "Fur": "Albino, Brown, Common, Light Grey, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 05:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "05:00 - 17:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "17:00 - 18:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "18:00 - 23:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "23:00 - 00:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown",
+                        "Light Brown",
+                        "Light Grey"
+                    ],
+                    "Rare": [
+                        "Albino",
+                        "Piebald Variation 1",
+                        "Piebald Variation 2"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Plains Bison",
+        "id": "plains_bison",
+        "Class": "9",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Horns",
+        "Weight": "350kg — 1200kg772lbs — 2646lbs",
+        "Fur": "Albino, Brown, Dark, Light Brown, Light Grey, Leucistic, Melanistic",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Light Brown",
+                        "Light Grey<",
+                        "Brown",
+                        "Dark"
+                    ],
+                    "Very Rare": [
+                        "Albino",
+                        "Leucistic",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    }
+]

@@ -1,0 +1,463 @@
+[
+    {
+        "Name": "Western Capercaillie",
+        "id": "western_capercaillie",
+        "Class": "1",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Combined",
+        "Weight": "1.5kg — 5kg3lbs — 11lbs",
+        "Plumage": "Bright, Brown, Dark, Leucistic, Ochre, Pale",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 11:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "11:00 - 14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 24:00",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Dark"
+                    ],
+                    "Very Rare": [
+                        "Leucistic Variation 1",
+                        "Leucistic Variation 2",
+                        "Pale"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown",
+                        "Bright",
+                        "Ochra"
+                    ],
+                    "Very Rare": [
+                        "Leucistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Siberian Musk Deer",
+        "id": "siberian_musk_deer",
+        "Class": "2",
+        "Difficulty": "1: Trivial — 3: Very Easy",
+        "Trophy Type": "Tusks",
+        "Weight": "9 kg — 17 kg20lbs — 37lbs",
+        "Fur": "Albino, Dark Brown, Grey Brown, Melanistic, Orange, Piebald",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 08:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "08:00 - 12:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "12:00 - 16:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Dark Brown",
+                        "Gray Brown "
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Gray Brown ",
+                        "Orange"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Eurasian Lynx",
+        "id": "eurasian_lynx",
+        "Class": "3",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Skull",
+        "Weight": "8kg — 45kg18lbs — 99lbs",
+        "Fur": "Albino, Grey, Light Brown, Melanistic, Piebald",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Grey",
+                        "Light Brown"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Wild Boar",
+        "id": "wild_boar",
+        "Class": "5",
+        "Difficulty": "1: Trivial — 5: Medium10: Fabled",
+        "Trophy Type": "Tusks",
+        "Weight": "25kg — 240kg55lbs — 529lbs",
+        "Fur": "Albino, Blackgold, Brown, Dark Brown, Light Brown, Melanistic, PurplegreyFabled Exclusive: Ash, Brindle, Butterscotch, Chalk, Cinder, Scorch, Smolder, Stitch, Stripple",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 03:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "03:00 - 06:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "6:00 - 10:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00 - 14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00 - 17:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "17:00 - 21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00 - 00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male / Female",
+                "Details": {
+                    "Common": [
+                        "Brown Variation 1",
+                        "Brown Variation 2",
+                        "Dark Brown",
+                        "Light Brown"
+                    ],
+                    "Rare": [
+                        "Blackgold",
+                        "Purplegrey"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Gray Wolf",
+        "id": "gray_wolf",
+        "Class": "6",
+        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+        "Trophy Type": "Skull",
+        "Weight": "30kg — 80kg66lbs — 176lbs",
+        "Fur": "Acromelanistic, Albino, Brown, Egg White, Dark Grey, Grey, Melanistic, Melanistic Charcoal, Red BrownFabled Exclusive: Battlethorne, Dawnbreak, Frostbite, Gravehide, Hollow, Razorwind, Scarborne, Twinsoul, Vanguard",
+        "Need_Zones": [
+            {
+                "Time": "00:00-03:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "03:00-06:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "06:00-10:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "10:00-14:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "14:00-18:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "18:00-21:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "21:00-00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Brown",
+                        "Grey"
+                    ],
+                    "Very Rare": [
+                        "Dark Gray",
+                        "Eggwhite",
+                        "Red Brown",
+                        "Acromelanistic",
+                        "Albino",
+                        "Melanistic",
+                        "Melanistic Charcoal"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Mountain Reindeer",
+        "id": "mountain_reindeer",
+        "Class": "6",
+        "Difficulty": "1: Trivial — 5: Medium",
+        "Trophy Type": "Antlers",
+        "Weight": "80kg — 182kg176lbs — 401lbs",
+        "Fur": "Albino, Brown, Dark-Brown, Leucistic, Light Brown, Melanistic, Piebald, Tan",
+        "Need_Zones": [
+            {
+                "Time": "00:00 - 04:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00 - 08:30",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "08:00 - 12:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "12:00 - 16:30",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "16:00 - 20:30",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00 - 00:30",
+                "Activity": "Resting"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Dark Brown",
+                        "Light Brown"
+                    ],
+                    "Rare": [
+                        "Leucistic",
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Brown",
+                        "Tan"
+                    ],
+                    "Rare": [
+                        "Leucistic",
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Albino",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Eurasian Brown Bear",
+        "id": "eurasian_brown_bear",
+        "Class": "7",
+        "Difficulty": "1: Trivial — 9: Legendary",
+        "Trophy Type": "Skull",
+        "Weight": "110kg — 482kg243lbs — 1063lbs",
+        "Fur": "Albino, Blond, Cinnamon, Dark Brown, Gold, Grey, Light Brown, Melanistic, Red-Brown, Spirit",
+        "Need_Zones": [],
+        "Variants": [
+            {
+                "Sex": "Male/Female",
+                "Details": {
+                    "Common": [
+                        "Cinnamon",
+                        "Light Brown",
+                        "Red Brown"
+                    ],
+                    "Uncommon": [
+                        "Blonde",
+                        "Dark Brown",
+                        "Gold",
+                        "Grey",
+                        "Spirit"
+                    ],
+                    "Rare": [
+                        "Melanistic",
+                        "Albino"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    },
+    {
+        "Name": "Moose",
+        "id": "moose",
+        "Class": "8",
+        "Difficulty": "1: Trivial — 5: Medium10: Fabled",
+        "Trophy Type": "Antlers",
+        "Weight": "320kg — 620kg700kg , Great One705lbs — 1367lbs1543lbs , Great One",
+        "Fur": "Acromelanistic, Albino, Brown, Dark-Brown, Light Brown, Melanistic, Mosaic, Piebald, TanMission Exclusive: MochaFabled Exclusive: Spruce, Two Tone, Ashen, Birch, Oak, Speckled",
+        "Need_Zones": [
+            {
+                "Time": "00:00-04:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "04:00-08:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "08:00-12:00",
+                "Activity": "Resting"
+            },
+            {
+                "Time": "12:00-16:00",
+                "Activity": "Drinking"
+            },
+            {
+                "Time": "16:00-20:00",
+                "Activity": "Feeding"
+            },
+            {
+                "Time": "20:00-00:00",
+                "Activity": "Feeding"
+            }
+        ],
+        "Variants": [
+            {
+                "Sex": "Male",
+                "Details": {
+                    "Common": [
+                        "Tan,",
+                        "Light Brown,",
+                        "Brown"
+                    ],
+                    "Rare": [
+                        "Piebald,",
+                        "Mosaic"
+                    ],
+                    "Very Rare": [
+                        "Acromelanistic,",
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            },
+            {
+                "Sex": "Female",
+                "Details": {
+                    "Common": [
+                        "Tan,",
+                        "Dark Brown,",
+                        "Brown"
+                    ],
+                    "Rare": [
+                        "Piebald"
+                    ],
+                    "Very Rare": [
+                        "Acromelanistic,",
+                        "Albino,",
+                        "Melanistic"
+                    ]
+                }
+            }
+        ],
+        "img_ext": "png"
+    }
+]

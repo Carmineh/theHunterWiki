@@ -50,15 +50,15 @@
                 "Sex": "Male/Female",
                 "Details": {
                     "Common": [
-                        "Grey Brown (74.90%)",
-                        "Grey (25.00%)"
+                        "Grey Brown,",
+                        "Grey"
                     ],
                     "Very Rare": [
-                        "Albino (0.02%)",
-                        "Brown Hybrid (0.02%)",
-                        "Light Grey Leucistic (0.02%)",
-                        "Melanistic (0.02%)",
-                        "White Hybrid (0.02%)"
+                        "Albino,",
+                        "Brown Hybrid,",
+                        "Light Grey Leucistic,",
+                        "Melanistic,",
+                        "White Hybrid"
                     ]
                 }
             }
@@ -108,15 +108,15 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "White Brown (37.45%)",
-                        "Brown (37.45%)",
-                        "Molting (12.50%)",
-                        "Grey (12.50%)"
+                        "White Brown,",
+                        "Brown,",
+                        "Molting,",
+                        "Grey"
                     ],
                     "Very Rare": [
-                        "Albino (0.03%)",
-                        "Leucistic (0.03%)",
-                        "Melanistic (0.03%)"
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
                     ]
                 }
             },
@@ -124,13 +124,13 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Brown (87.98%)",
-                        "Grey (11.78%)"
+                        "Brown,",
+                        "Grey"
                     ],
                     "Very Rare": [
-                        "Albino (0.08%)",
-                        "Leucistic (0.08%)",
-                        "Melanistic (0.08%)"
+                        "Albino,",
+                        "Leucistic,",
+                        "Melanistic"
                     ]
                 }
             }
@@ -180,18 +180,18 @@
                 "Sex": "Male/Female",
                 "Details": {
                     "Common": [
-                        "Tan (37.35%)",
-                        "Dark Brown (37.35%)",
-                        "Light Brown (12.50%)",
-                        "Brown (12.50%)"
+                        "Tan,",
+                        "Dark Brown,",
+                        "Light Brown,",
+                        "Brown"
                     ],
                     "Rare": [
-                        "Melanistic (0.10%)",
-                        "Light Grey (0.10%)"
+                        "Melanistic,",
+                        "Light Grey"
                     ],
                     "Very Rare": [
-                        "Leucistic (0.05%)",
-                        "Albino (0.05%)"
+                        "Leucistic,",
+                        "Albino"
                     ]
                 }
             }
@@ -241,16 +241,16 @@
                 "Sex": "Male/Female",
                 "Details": {
                     "Common": [
-                        "Dark Red (33.23%)",
-                        "Orange (33.23%)",
-                        "Red (33.23%)"
+                        "Dark Red",
+                        "Orange",
+                        "Red"
                     ],
                     "Rare": [
-                        "Piebald (0.20%)"
+                        "Piebald"
                     ],
                     "Very Rare": [
-                        "Albino (0.05%)",
-                        "Melanistic (0.05%)"
+                        "Albino,",
+                        "Melanistic"
                     ]
                 }
             }
@@ -300,18 +300,18 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "Dark Grey (33.15%)",
-                        "Dark Brown (33.15%)",
-                        "Brown (33.15%)"
+                        "Dark Grey,",
+                        "Dark Brown,",
+                        "Brown"
                     ],
                     "Rare": [
-                        "Piebald Variation 1 (0.20%)",
-                        "Piebald Variation 2 (0.20%)"
+                        "Piebald Variation 1",
+                        "Piebald Variation 2"
                     ],
                     "Very Rare": [
-                        "Albino (0.05%)",
-                        "Leucistic (0.05)",
-                        "Melanistic (0.05%)"
+                        "Albino,",
+                        "Leucistic",
+                        "Melanistic"
                     ]
                 }
             },
@@ -319,17 +319,17 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Tan (33.20%)",
-                        "Orange (33.20%)",
-                        "Brown (33.20%)"
+                        "Tan,",
+                        "Orange,",
+                        "Brown"
                     ],
                     "Rare": [
-                        "Piebald (0.20%)"
+                        "Piebald"
                     ],
                     "Very Rare": [
-                        "Albino (0.05%)",
-                        "Leucistic (0.05 %)",
-                        "Melanistic (0.05%)"
+                        "Albino,",
+                        "Leucistic",
+                        "Melanistic"
                     ]
                 }
             }
@@ -379,19 +379,19 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "Dark Spotted (14.93%)",
-                        "Spotted (29.86%)",
-                        "Dark (29.86%)",
-                        "Chocolate (12.49%)",
-                        "White (12.49%)"
+                        "Dark Spotted",
+                        "Spotted",
+                        "Dark",
+                        "Chocolate",
+                        "White"
                     ],
                     "Rare": [
-                        "Piebald Variation 1 (0.15%)",
-                        "Piebald Variation 2 (0.15%)"
+                        "Piebald Variation 1",
+                        "Piebald Variation 2"
                     ],
                     "Very Rare": [
-                        "Albino (0.04%)",
-                        "Melanistic (0.04%)"
+                        "Albino",
+                        "Melanistic"
                     ]
                 }
             },
@@ -399,16 +399,16 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Red Spotted (38.33%)",
-                        "Spotted (38.33%)",
-                        "Dark Spotted (23.00%)"
+                        "Red Spotted",
+                        "Spotted",
+                        "Dark Spotted"
                     ],
                     "Rare": [
-                        "Piebald (0.23%)"
+                        "Piebald"
                     ],
                     "Very Rare": [
-                        "Albino (0.06%)",
-                        "Melanistic (0.06%)"
+                        "Albino",
+                        "Melanistic"
                     ]
                 }
             }
@@ -458,18 +458,18 @@
                 "Sex": "Male / Female",
                 "Details": {
                     "Common": [
-                        "Brown Variation 1 (39.74%)",
-                        "Brown Variation 2 (19.87%)",
-                        "Dark Brown (19.87%)",
-                        "Light Brown (19.87%)"
+                        "Brown Variation 1",
+                        "Brown Variation 2",
+                        "Dark Brown",
+                        "Light Brown"
                     ],
                     "Rare": [
-                        "Blackgold (0.24%)",
-                        "Purplegrey (0.24%)"
+                        "Blackgold",
+                        "Purplegrey"
                     ],
                     "Very Rare": [
-                        "Albino (0.08%)",
-                        "Melanistic (0.08%)"
+                        "Albino,",
+                        "Melanistic"
                     ]
                 }
             }
@@ -519,19 +519,19 @@
                 "Sex": "Male / Female",
                 "Details": {
                     "Common": [
-                        "Brown (33.13%)",
-                        "Dark Brown (33.13%)",
-                        "Light Brown (33.13%)"
+                        "Brown,",
+                        "Dark Brown,",
+                        "Light Brown"
                     ],
                     "Rare": [
-                        "Piebald Variation 1 (0.20%)",
-                        "Piebald Variation 2 (0.20%)"
+                        "Piebald Variation 1",
+                        "Piebald Variation 2"
                     ],
                     "Very Rare": [
-                        "Albino (0.05%)",
-                        "Erythristic (0.05%)",
-                        "Leucistic (0.05%)",
-                        "Melanistic (0.05%)"
+                        "Albino,",
+                        "Erythristic",
+                        "Leucistic",
+                        "Melanistic"
                     ]
                 }
             }
@@ -581,16 +581,16 @@
                 "Sex": "Male/Female",
                 "Details": {
                     "Common": [
-                        "Light Brown (33.23%)",
-                        "Dark Brown (33.23%)",
-                        "Brown (33.23%)"
+                        "Light Brown,",
+                        "Dark Brown,",
+                        "Brown"
                     ],
                     "Rare": [
-                        "Piebald (0.20%)"
+                        "Piebald"
                     ],
                     "Very Rare": [
-                        "Albino (0.05%)",
-                        "Melanistic (0.05%)"
+                        "Albino,",
+                        "Melanistic"
                     ]
                 }
             }

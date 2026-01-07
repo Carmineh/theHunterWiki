@@ -2,11 +2,11 @@
   "manifest_version": 1,
   "type": "WebApp",
   "meta": {
-    "name": "HunterWiki",
+    "name": "theHunterWiki",
     "version": "1.0.0",
     "minimum-overwolf-version": "0.198.0",
-    "author": "Manny",
-    "description": "Wiki Overlay",
+    "author": "https://github.com/Carmineh",
+    "description": "Overwolf extension for theHunter: COTW. Keep a complete wiki always at hand directly in-game.",
     "dock_button_title": "Wiki",
     "icon": "icons/IconMouseNormal.png",
     "launcher_icon": "icons/IconMouseNormal.png"
