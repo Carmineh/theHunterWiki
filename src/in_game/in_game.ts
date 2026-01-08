@@ -71,6 +71,7 @@ class InGameController {
   async init() {
     await this.loadData();
     this.renderMaps();
+    this.initAds();
 
     document
       .getElementById('btn-back-home')
@@ -83,6 +84,30 @@ class InGameController {
     searchInput?.addEventListener('input', (e) =>
       this.handleSearch((e.target as HTMLInputElement).value)
     );
+  }
+
+  private initAds() {
+    const adContainer = document.getElementById('ad-container');
+    if (!adContainer) {
+      console.warn('Ad container not found');
+      return;
+    }
+
+    // Check if Overwolf API is available
+    if (typeof overwolf === 'undefined') {
+      console.warn('Overwolf API not available - running outside Overwolf environment');
+      return;
+    }
+
+    // Request banner ad placement from Overwolf
+    (overwolf as any).advertising?.getPlacement('banner', (result: any) => {
+      if (result && result.success && result.html) {
+        adContainer.innerHTML = result.html;
+        console.log('Overwolf banner ad loaded successfully');
+      } else {
+        console.warn('Failed to load Overwolf ad:', result?.error || 'Unknown error');
+      }
+    });
   }
 
   async loadData() {

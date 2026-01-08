@@ -552,3 +552,42 @@ h2 {
 .greatone-box .medal-value {
   display: none;
 }
+
+/* =========================================
+   AD FOOTER
+   ========================================= */
+.ad-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #0a0a0a;
+  border-top: 1px solid #ff8800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90px;
+  z-index: 1000;
+}
+
+.ad-banner-container {
+  max-width: 728px;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-placeholder {
+  color: #555;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Adjust main padding to account for fixed footer */
+main {
+  height: calc(100vh - 76px - 90px); /* header + ad footer */
+  padding-bottom: 20px;
+}
