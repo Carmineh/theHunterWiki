@@ -14,32 +14,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 07:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 13:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 16:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "16:00 - 20:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00 - 0:30",
-        "Activity": "Resting"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 04:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 07:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 13:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 16:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "16:00 - 20:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 0:30",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -75,28 +79,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 08:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "08:00 - 11:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "11:00 - 14:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "14:00 - 17:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17:00 - 20:00",
-        "Activity": "Feeding"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 11:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11:00 - 14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 17:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 20:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -126,40 +134,44 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 05:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "05:00 - 07:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 09:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "09:00 - 11:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "11:00 - 13:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 15:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "15:00 - 17:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 19:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "19:00 - 00:30",
-        "Activity": "Resting"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 05:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "05:00 - 07:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 09:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "09:00 - 11:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11:00 - 13:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 15:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "15:00 - 17:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 19:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "19:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -196,32 +208,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 07:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 13:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "13:00 - 17:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 21:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:30",
-        "Activity": "Resting"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 04:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 07:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 13:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "13:00 - 17:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 21:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -251,32 +267,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "04:00 - 07:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "10:00 - 13:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 20:30",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "20:00 - 0:30",
-        "Activity": "Feeding"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 04:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "04:00 - 07:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "10:00 - 13:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 20:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "20:00 - 0:30",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -311,32 +331,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:30",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "03:00 - 06:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "06:00 - 10:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "10:00 - 13:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "13:00 - 16:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "16:00 - 20:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "20:00 - 00:30",
-        "Activity": "Feeding"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 03:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 10:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "10:00 - 13:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "13:00 - 16:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00 - 20:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "20:00 - 00:30",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -372,7 +396,92 @@
       "Gold": "193.79",
       "Diamond": "255.09"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 12:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "12:00 - 16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00 - 20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 24:00",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 11:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "11:00 - 14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 24:00",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00-04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00-08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00-12:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "12:00-16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00-20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "16:00-00:00",
+            "Activity": "Feeding"
+          }
+        ]
+      }
+    ],
     "Variants": [
       {
         "Sex": "Male",
@@ -408,32 +517,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:30",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "06:00 - 10:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 14:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "14:00 - 17:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17:00 - 20:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00 - 00:30",
-        "Activity": "Resting"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 03:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "06:00 - 10:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 14:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 17:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 20:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -476,7 +589,40 @@
       "Gold": "378",
       "Diamond": "492"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00 - 03:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 09:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 16:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00 - 20:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "20:00 - 00:30",
+            "Activity": "Feeding"
+          }
+        ]
+      }
+    ],
     "Variants": [],
     "img_ext": "png"
   },
@@ -495,28 +641,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00-04:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "04:00-08:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "08:00-12:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00-16:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "16:00-20:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "20:00-00:00",
-        "Activity": "Feeding"
+        "mississippi_acres_preserve": [
+          {
+            "Time": "00:00-04:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "04:00-08:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "08:00-12:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00-16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00-20:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "20:00-00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [

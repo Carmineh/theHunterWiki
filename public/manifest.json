@@ -9,7 +9,8 @@
     "description": "Overwolf extension for theHunter: COTW. Keep a complete wiki always at hand directly in-game.",
     "dock_button_title": "theHunterWiki",
     "icon": "icons/IconMouseNormal.png",
-    "launcher_icon": "icons/IconMouseNormal.png"
+    "icon_gray": "icons/IconMouseNormal.png",
+    "launcher_icon": "icons/launcher_icon.ico"
   },
   "permissions": ["GameInfo", "FileSystem", "Hotkeys"],
   "data": {

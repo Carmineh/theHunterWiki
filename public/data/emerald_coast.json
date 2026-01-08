@@ -14,8 +14,12 @@
     },
     "Need_Zones": [
       {
-        "Time": "13:00 - 15:00",
-        "Activity": "Eating"
+        "emerald_coast": [
+          {
+            "Time": "13:00 - 15:00",
+            "Activity": "Eating"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -45,32 +49,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 07:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 16:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "16:00 - 20:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 07:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 16:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "16:00 - 20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -106,32 +114,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "04:00 - 07:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "10:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 20:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Feeding"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "04:00 - 07:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "10:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 20:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -161,32 +173,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 07:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "10:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "17:00 - 21:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 07:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "10:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "17:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -224,36 +240,40 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "06:00 - 09:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "09:00 - 12:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "12:00 - 15:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "15:00 - 18:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "18:00 - 21:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Feeding"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 15:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "18:00 - 21:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -291,36 +311,40 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 09:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "09:00 - 12:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "12:00 - 15:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "15:00 - 18:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "18:00 - 21:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 15:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "15:00 - 18:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "18:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -358,36 +382,40 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "00:30 - 06:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "06:00 - 09:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "09:00 - 12:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00 - 15:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "15:00 - 18:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "18:00 - 21:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Feeding"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "00:30 - 06:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "09:00 - 12:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 15:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "18:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -428,32 +456,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 10:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 13:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 21:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 10:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 13:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -491,32 +523,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 10:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 14:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "14:00 - 17:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17:00 - 20:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 10:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 17:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -561,32 +597,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 09:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "09:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 20:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Drinking"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Drinking"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -622,32 +662,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 10:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "10:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17:00 - 21:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 10:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "10:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -677,32 +721,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 09:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "09:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00 - 20:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Feeding"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00 - 20:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -744,28 +792,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "04:00 - 08:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "08:00 - 12:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00 - 16:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "16:00 - 20:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Feeding"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "04:00 - 08:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "08:00 - 12:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00 - 20:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [],
@@ -786,32 +838,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 07:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00 - 10:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "10:00 - 14:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "14:00 - 17:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17:00 - 20:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "20:00 - 00:00",
-        "Activity": "Resting"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 07:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00 - 10:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "10:00 - 14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 17:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 20:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [

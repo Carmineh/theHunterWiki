@@ -127,7 +127,16 @@ class InGameController {
                 groups.forEach((g) => {
                   Object.entries(g).forEach(([reserveId, zones]) => {
                     const list = merged.get(reserveId) || [];
-                    merged.set(reserveId, [...list, ...(zones || [])]);
+                    // Dedup by Time+Activity
+                    const combined = [...list, ...(zones || [])];
+                    const seen = new Set<string>();
+                    const unique = combined.filter((z) => {
+                      const key = `${z.Time}|${z.Activity}`;
+                      if (seen.has(key)) return false;
+                      seen.add(key);
+                      return true;
+                    });
+                    merged.set(reserveId, unique);
                   });
                 });
               };
@@ -144,7 +153,7 @@ class InGameController {
             const incomingGroups = normalizeNeedZonesForMap(animal.Need_Zones, mapInfo.id);
 
             if (existing) {
-              const existingGroups = normalizeNeedZonesForMap(existing.Need_Zones, mapInfo.id);
+              const existingGroups = existing.Need_Zones as NeedZoneGroup[];
               const merged: AnimalData = {
                 ...existing,
                 ...animal,

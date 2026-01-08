@@ -14,40 +14,44 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00-05:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "05:00-07:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "07:00-09:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "09:00-11:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "11:00-13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00-15:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "15:00-17:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "17:00-29:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "19:00-00:00",
-        "Activity": "Resting"
+        "layton_lake_district": [
+          {
+            "Time": "00:00-05:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "05:00-07:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "07:00-09:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "09:00-11:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11:00-13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00-15:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "15:00-17:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "17:00-29:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "19:00-00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -81,7 +85,92 @@
       "Gold": "4.08",
       "Diamond": "4.62"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "silver_ridge_peaks": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 11:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11:00 - 14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "te_awaroa_national_park": [
+          {
+            "Time": "00:00 - 04:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 11:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11:00 - 14:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 17:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 20:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "layton_lake_district": [
+          {
+            "Time": "00:00-04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00-08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00-11:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11:00-14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00-17:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00-20:00",
+            "Activity": "Feeding"
+          }
+        ]
+      }
+    ],
     "Variants": [
       {
         "Sex": "Male/Female",
@@ -109,32 +198,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "03:00 - 06:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "06:00 - 10:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "10:00 - 14:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "14:00 - 18:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "18:00 - 21:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:30",
-        "Activity": "Feeding"
+        "layton_lake_district": [
+          {
+            "Time": "00:00 - 03:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 10:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "10:00 - 14:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 18:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "18:00 - 21:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:30",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -197,28 +290,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 08:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "08:00 - 12:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00 - 16:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "16:00 - 20:30",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "20:00 - 00:30",
-        "Activity": "Resting"
+        "layton_lake_district": [
+          {
+            "Time": "00:00 - 04:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 12:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 16:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "16:00 - 20:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "20:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -254,7 +351,92 @@
       "Gold": "193.79",
       "Diamond": "255.09"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "layton_lake_district": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 12:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "12:00 - 16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00 - 20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 24:00",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "layton_lake_district": [
+          {
+            "Time": "00:00 - 04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00 - 11:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "11:00 - 14:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 24:00",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "layton_lake_district": [
+          {
+            "Time": "00:00-04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00-08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00-12:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "12:00-16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00-20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "16:00-00:00",
+            "Activity": "Feeding"
+          }
+        ]
+      }
+    ],
     "Variants": [
       {
         "Sex": "Male",
@@ -290,28 +472,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00-04:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "04:00-08:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "08:00-12:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00-16:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "16:00-20:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "20:00-00:00",
-        "Activity": "Feeding"
+        "layton_lake_district": [
+          {
+            "Time": "00:00-04:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "04:00-08:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "08:00-12:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00-16:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00-20:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "20:00-00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -341,28 +527,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 04:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00 - 08:30",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "08:00 - 12:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "12:00 - 16:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "16:00 - 20:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00 - 00:30",
-        "Activity": "Resting"
+        "layton_lake_district": [
+          {
+            "Time": "00:00 - 04:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00 - 08:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "08:00 - 12:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 16:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "16:00 - 20:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -392,28 +582,32 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00-04:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "04:00-08:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "08:00-12:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00-16:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "16:00-20:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "20:00-00:00",
-        "Activity": "Feeding"
+        "layton_lake_district": [
+          {
+            "Time": "00:00-04:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "04:00-08:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "08:00-12:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00-16:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "16:00-20:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "20:00-00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [

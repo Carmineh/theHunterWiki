@@ -44,7 +44,80 @@
       "Gold": "106.3",
       "Diamond": "132.2"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "parque_fernando": [
+          {
+            "Time": "00:00 - 03:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 09:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 15:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "18:00 - 21:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "21:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "parque_fernando": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 15:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "18:00 - 21:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
+      }
+    ],
     "Variants": [
       {
         "Sex": "Male",
@@ -81,36 +154,40 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "06:00 - 09:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "09:00 - 12:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "12:00 - 15:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "15:00 - 18:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "18:00 - 21:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Feeding"
+        "emerald_coast": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 15:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "18:00 - 21:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -148,32 +225,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00 : 00 - 03 : 30",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "03 : 00 - 07 : 30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "07 : 00 - 11 : 30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "11 : 00 - 14 : 30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "14 : 00 - 17 : 30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17 : 00 - 20 : 30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "20 : 00 - 00 : 30",
-        "Activity": "Feeding"
+        "parque_fernando": [
+          {
+            "Time": "00 : 00 - 03 : 30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "03 : 00 - 07 : 30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "07 : 00 - 11 : 30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "11 : 00 - 14 : 30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "14 : 00 - 17 : 30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17 : 00 - 20 : 30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "20 : 00 - 00 : 30",
+            "Activity": "Feeding"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -203,36 +284,40 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 – 03:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "03:00 - 06:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "06:00 - 09:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "09:00 - 12:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "12:00 - 15:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "15:00 - 18:30",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "18:00 - 21:30",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "21:00 - 00:30",
-        "Activity": "Drinking"
+        "parque_fernando": [
+          {
+            "Time": "00:00 – 03:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 09:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "09:00 - 12:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 15:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "18:00 - 21:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00 - 00:30",
+            "Activity": "Drinking"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -259,7 +344,80 @@
       "Gold": "220.54",
       "Diamond": "312.17"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "parque_fernando": [
+          {
+            "Time": "00:00 – 03:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00 - 09:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "09:00 - 12:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00 - 15:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00 - 18:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "18:00 - 21:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00 - 00:30",
+            "Activity": "Feeding"
+          }
+        ]
+      },
+      {
+        "parque_fernando": [
+          {
+            "Time": "00:00-03:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "03:00-06:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "06:00-09:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "09:00-12:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "12:00-15:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "15:00-18:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "18:00-21:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00-00:00",
+            "Activity": "Feeding"
+          }
+        ]
+      }
+    ],
     "Variants": [
       {
         "Sex": "Male/Female",
@@ -293,32 +451,36 @@
     },
     "Need_Zones": [
       {
-        "Time": "00:00 - 03:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "03:00 - 06:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "06:00 - 10:00",
-        "Activity": "Drinking"
-      },
-      {
-        "Time": "10:00 - 13:00",
-        "Activity": "Resting"
-      },
-      {
-        "Time": "13:00 - 17:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "17:00 - 21:00",
-        "Activity": "Feeding"
-      },
-      {
-        "Time": "21:00 - 00:00",
-        "Activity": "Resting"
+        "parque_fernando": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 10:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "10:00 - 13:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "13:00 - 17:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "17:00 - 21:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
       }
     ],
     "Variants": [
@@ -346,7 +508,80 @@
       "Gold": "138.15",
       "Diamond": "167.54"
     },
-    "Need_Zones": [],
+    "Need_Zones": [
+      {
+        "parque_fernando": [
+          {
+            "Time": "00:00 - 03:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 09:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 15:30",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "15:00 - 18:30",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "18:00 - 21:30",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00 - 00:30",
+            "Activity": "Resting"
+          }
+        ]
+      },
+      {
+        "parque_fernando": [
+          {
+            "Time": "00:00 - 03:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "03:00 - 06:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "06:00 - 09:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "09:00 - 12:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "12:00 - 15:00",
+            "Activity": "Drinking"
+          },
+          {
+            "Time": "15:00 - 18:00",
+            "Activity": "Feeding"
+          },
+          {
+            "Time": "18:00 - 21:00",
+            "Activity": "Resting"
+          },
+          {
+            "Time": "21:00 - 00:00",
+            "Activity": "Resting"
+          }
+        ]
+      }
+    ],
     "Variants": [
       {
         "Sex": "Male",
