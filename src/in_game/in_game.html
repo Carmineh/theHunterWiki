@@ -1,35 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Overwolf Hunter App</title>
-		<link rel="stylesheet" href="../../css/style.css" />
-	</head>
-	<body class="dark-theme">
-		<header>
-			<div class="logo">theHunterWIKI</div>
-			<input type="text" id="search-bar" placeholder="Search an animal..." />
-			<div id="search-results" class="search-dropdown hidden"></div>
-		</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overwolf Hunter App</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <header>
+      <div class="logo">theHunterWIKI</div>
+      <input type="text" id="search-bar" placeholder="Search an animal..." />
+      <div id="search-results" class="search-dropdown hidden"></div>
+    </header>
 
-		<main>
-			<section id="view-home" class="view active">
-				<div class="maps-grid" id="maps-container"></div>
-			</section>
+    <main>
+      <section id="view-home" class="view active">
+        <div class="maps-grid" id="maps-container"></div>
+      </section>
 
-			<section id="view-map" class="view hidden">
-				<div class="view-header">
-					<button id="btn-back-home" class="btn-back">⬅ Maps</button>
-					<h2 id="current-map-title">Map Name</h2>
-				</div>
-				<div class="animals-grid" id="map-animals-container"></div>
-			</section>
+      <section id="view-map" class="view hidden">
+        <div class="view-header">
+          <button id="btn-back-home" class="btn-back">⬅ Maps</button>
+          <h2 id="current-map-title">Map Name</h2>
+        </div>
+        <div class="animals-grid" id="map-animals-container"></div>
+      </section>
 
-			<section id="view-animal" class="view hidden">
-				<button id="btn-back-map" class="btn-back">⬅ Back</button>
-				<div id="animal-detail-content" class="animal-detail"></div>
-			</section>
-		</main>
-	</body>
+      <section id="view-animal" class="view hidden">
+        <button id="btn-back-map" class="btn-back">⬅ Back</button>
+        <div id="animal-detail-content" class="animal-detail"></div>
+      </section>
+    </main>
+  </body>
 </html>

@@ -11,7 +11,7 @@
     "icon": "icons/IconMouseNormal.png",
     "launcher_icon": "icons/IconMouseNormal.png"
   },
-  "permissions": [ "GameInfo", "FileSystem", "Hotkeys" ],
+  "permissions": ["GameInfo", "FileSystem", "Hotkeys"],
   "data": {
     "start_window": "background",
     "hotkeys": {

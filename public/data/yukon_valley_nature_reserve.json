@@ -1,512 +1,430 @@
 [
-    {
-        "Name": "Harlequin Duck",
-        "id": "harlequin_duck",
-        "Class": "1",
-        "Difficulty": "1: Trivial — 3: Very Easy",
-        "Trophy Type": "Weight",
-        "Weight": "500g — 750g1.1lbs — 1.7lbs",
-        "Plumage": "Albino, Dark, Dark Brown, Dark Grey, Grey, Melanistic, Piebald",
-        "Trophies": {
-            "Silver": "5.34",
-            "Gold": "6.42",
-            "Diamond": "7.23"
-        },
-        "Need_Zones": [
-            {
-                "Time": "05:00 - 07:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "09:00 – 11:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "13:00 – 15:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "17:00 – 19:00",
-                "Activity": "Feeding"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male",
-                "Details": {
-                    "Common": [
-                        "Dark Grey",
-                        "Piebald"
-                    ],
-                    "Very Rare": [
-                        "Albino,",
-                        "Melanistic"
-                    ]
-                }
-            },
-            {
-                "Sex": "Female",
-                "Details": {
-                    "Common": [
-                        "Dark Grey",
-                        "Dark Brown"
-                    ],
-                    "Rare": [
-                        "Dark"
-                    ],
-                    "Very Rare": [
-                        "Albino",
-                        "Grey"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+  {
+    "Name": "Harlequin Duck",
+    "id": "harlequin_duck",
+    "Class": "1",
+    "Difficulty": "1: Trivial — 3: Very Easy",
+    "Trophy Type": "Weight",
+    "Weight": "500g — 750g1.1lbs — 1.7lbs",
+    "Plumage": "Albino, Dark, Dark Brown, Dark Grey, Grey, Melanistic, Piebald",
+    "Trophies": {
+      "Silver": "5.34",
+      "Gold": "6.42",
+      "Diamond": "7.23"
     },
-    {
-        "Name": "Canada Goose",
-        "id": "canada_goose",
-        "Class": "1",
-        "Difficulty": "1: Trivial — 5: Medium",
-        "Trophy Type": "Weight",
-        "Weight": "3.2kg — 9.2kg7lbs — 20lbs",
-        "Plumage": "Albino, Brown Hybrid, Grey, Grey Brown, Light Grey Leucistic, Melanistic, White Hybrid",
-        "Trophies": {
-            "Silver": "4.40",
-            "Gold": "6.80",
-            "Diamond": "8.59"
-        },
-        "Need_Zones": [
-            {
-                "Time": "00:00 - 05:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "05:00 - 07:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "07:00 - 09:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "09:00 - 11:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "11:00 - 13:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "13:00 - 15:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "15:00 - 17:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "17:00 - 19:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "19:00 - 00:00",
-                "Activity": "Resting"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male/Female",
-                "Details": {
-                    "Common": [
-                        "Grey Brown,",
-                        "Grey"
-                    ],
-                    "Very Rare": [
-                        "Albino,",
-                        "Brown Hybrid,",
-                        "Light Grey Leucistic,",
-                        "Melanistic,",
-                        "White Hybrid"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+    "Need_Zones": [
+      {
+        "Time": "05:00 - 07:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "09:00 – 11:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "13:00 – 15:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "17:00 – 19:00",
+        "Activity": "Feeding"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male",
+        "Details": {
+          "Common": ["Dark Grey", "Piebald"],
+          "Very Rare": ["Albino,", "Melanistic"]
+        }
+      },
+      {
+        "Sex": "Female",
+        "Details": {
+          "Common": ["Dark Grey", "Dark Brown"],
+          "Rare": ["Dark"],
+          "Very Rare": ["Albino", "Grey"]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Canada Goose",
+    "id": "canada_goose",
+    "Class": "1",
+    "Difficulty": "1: Trivial — 5: Medium",
+    "Trophy Type": "Weight",
+    "Weight": "3.2kg — 9.2kg7lbs — 20lbs",
+    "Plumage": "Albino, Brown Hybrid, Grey, Grey Brown, Light Grey Leucistic, Melanistic, White Hybrid",
+    "Trophies": {
+      "Silver": "4.40",
+      "Gold": "6.80",
+      "Diamond": "8.59"
     },
-    {
-        "Name": "Red Fox",
-        "id": "red_fox",
-        "Class": "2",
-        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
-        "Trophy Type": "Weight",
-        "Weight": "1kg — 15.4kg2lbs — 34lbs",
-        "Fur": "Albino, Dark Red, Melanistic, Orange, Piebald, RedFabled Exclusive: Blood Moon, Candycane, Cherry Blossom, Licorice, Midnight Poppy, Mystic Snowdrop, Peppermint, Rosebud Frost, Scarlet Nightshade",
-        "Trophies": {
-            "Silver": "4.66",
-            "Gold": "10.03",
-            "Diamond": "14.05"
-        },
-        "Need_Zones": [
-            {
-                "Time": "00:00 - 04:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "04:00 - 07:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "07:00 - 10:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "10:00 - 13:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "13:00 - 17:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "17:00 - 20:00",
-                "Activity": "Drinking"
-            },
-            {
-                "Time": "20:00 - 00:00",
-                "Activity": "Feeding"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male/Female",
-                "Details": {
-                    "Common": [
-                        "Dark Red",
-                        "Orange",
-                        "Red"
-                    ],
-                    "Rare": [
-                        "Piebald"
-                    ],
-                    "Very Rare": [
-                        "Albino,",
-                        "Melanistic"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+    "Need_Zones": [
+      {
+        "Time": "00:00 - 05:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "05:00 - 07:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "07:00 - 09:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "09:00 - 11:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "11:00 - 13:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "13:00 - 15:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "15:00 - 17:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "17:00 - 19:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "19:00 - 00:00",
+        "Activity": "Resting"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male/Female",
+        "Details": {
+          "Common": ["Grey Brown,", "Grey"],
+          "Very Rare": [
+            "Albino,",
+            "Brown Hybrid,",
+            "Light Grey Leucistic,",
+            "Melanistic,",
+            "White Hybrid"
+          ]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Red Fox",
+    "id": "red_fox",
+    "Class": "2",
+    "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+    "Trophy Type": "Weight",
+    "Weight": "1kg — 15.4kg2lbs — 34lbs",
+    "Fur": "Albino, Dark Red, Melanistic, Orange, Piebald, RedFabled Exclusive: Blood Moon, Candycane, Cherry Blossom, Licorice, Midnight Poppy, Mystic Snowdrop, Peppermint, Rosebud Frost, Scarlet Nightshade",
+    "Trophies": {
+      "Silver": "4.66",
+      "Gold": "10.03",
+      "Diamond": "14.05"
     },
-    {
-        "Name": "Gray Wolf",
-        "id": "gray_wolf",
-        "Class": "6",
-        "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
-        "Trophy Type": "Skull",
-        "Weight": "30kg — 80kg66lbs — 176lbs",
-        "Fur": "Acromelanistic, Albino, Brown, Egg White, Dark Grey, Grey, Melanistic, Melanistic Charcoal, Red BrownFabled Exclusive: Battlethorne, Dawnbreak, Frostbite, Gravehide, Hollow, Razorwind, Scarborne, Twinsoul, Vanguard",
-        "Trophies": {
-            "Silver": "32",
-            "Gold": "36",
-            "Diamond": "39"
-        },
-        "Need_Zones": [
-            {
-                "Time": "00:00-03:00",
-                "Activity": "Drinking"
-            },
-            {
-                "Time": "03:00-06:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "06:00-10:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "10:00-14:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "14:00-18:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "18:00-21:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "21:00-00:00",
-                "Activity": "Feeding"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male/Female",
-                "Details": {
-                    "Common": [
-                        "Brown",
-                        "Grey"
-                    ],
-                    "Very Rare": [
-                        "Dark Gray",
-                        "Eggwhite",
-                        "Red Brown",
-                        "Acromelanistic",
-                        "Albino",
-                        "Melanistic",
-                        "Melanistic Charcoal"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+    "Need_Zones": [
+      {
+        "Time": "00:00 - 04:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "04:00 - 07:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "07:00 - 10:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "10:00 - 13:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "13:00 - 17:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "17:00 - 20:00",
+        "Activity": "Drinking"
+      },
+      {
+        "Time": "20:00 - 00:00",
+        "Activity": "Feeding"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male/Female",
+        "Details": {
+          "Common": ["Dark Red", "Orange", "Red"],
+          "Rare": ["Piebald"],
+          "Very Rare": ["Albino,", "Melanistic"]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Gray Wolf",
+    "id": "gray_wolf",
+    "Class": "6",
+    "Difficulty": "1: Trivial — 9: Legendary10: Fabled",
+    "Trophy Type": "Skull",
+    "Weight": "30kg — 80kg66lbs — 176lbs",
+    "Fur": "Acromelanistic, Albino, Brown, Egg White, Dark Grey, Grey, Melanistic, Melanistic Charcoal, Red BrownFabled Exclusive: Battlethorne, Dawnbreak, Frostbite, Gravehide, Hollow, Razorwind, Scarborne, Twinsoul, Vanguard",
+    "Trophies": {
+      "Silver": "32",
+      "Gold": "36",
+      "Diamond": "39"
     },
-    {
-        "Name": "Grant Caribou",
-        "id": "grant_caribou",
-        "Class": "6",
-        "Difficulty": "1: Trivial — 5: Medium",
-        "Trophy Type": "Antlers",
-        "Weight": "? — 190kg? — 419lbs",
-        "Fur": "Albino, Dark Brown, Leucistic, Light Brown, Melanistic, Piebald",
-        "Trophies": {
-            "Silver": "152.53",
-            "Gold": "311.21",
-            "Diamond": "430.23"
-        },
-        "Need_Zones": [
-            {
-                "Time": "00:00 - 04:30",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "04:00 - 08:30",
-                "Activity": "Drinking"
-            },
-            {
-                "Time": "08:00 - 12:30",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "12:00 - 16:30",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "16:00 - 20:30",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "20:00 - 00:30",
-                "Activity": "Resting"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male",
-                "Details": {
-                    "Common": [
-                        "Dark Brown",
-                        "Light Brown"
-                    ],
-                    "Rare": [
-                        "Piebald"
-                    ],
-                    "Very Rare": [
-                        "Albino,",
-                        "Leucistic,",
-                        "Melanistic"
-                    ]
-                }
-            },
-            {
-                "Sex": "Female",
-                "Details": {
-                    "Common": [
-                        "Dark Brown",
-                        "Light Brown"
-                    ],
-                    "Very Rare": [
-                        "Albino,",
-                        "Leucistic,",
-                        "Melanistic"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+    "Need_Zones": [
+      {
+        "Time": "00:00-03:00",
+        "Activity": "Drinking"
+      },
+      {
+        "Time": "03:00-06:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "06:00-10:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "10:00-14:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "14:00-18:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "18:00-21:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "21:00-00:00",
+        "Activity": "Feeding"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male/Female",
+        "Details": {
+          "Common": ["Brown", "Grey"],
+          "Very Rare": [
+            "Dark Gray",
+            "Eggwhite",
+            "Red Brown",
+            "Acromelanistic",
+            "Albino",
+            "Melanistic",
+            "Melanistic Charcoal"
+          ]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Grant Caribou",
+    "id": "grant_caribou",
+    "Class": "6",
+    "Difficulty": "1: Trivial — 5: Medium",
+    "Trophy Type": "Antlers",
+    "Weight": "? — 190kg? — 419lbs",
+    "Fur": "Albino, Dark Brown, Leucistic, Light Brown, Melanistic, Piebald",
+    "Trophies": {
+      "Silver": "152.53",
+      "Gold": "311.21",
+      "Diamond": "430.23"
     },
-    {
-        "Name": "Moose",
-        "id": "moose",
-        "Class": "8",
-        "Difficulty": "1: Trivial — 5: Medium10: Fabled",
-        "Trophy Type": "Antlers",
-        "Weight": "320kg — 620kg700kg , Great One705lbs — 1367lbs1543lbs , Great One",
-        "Fur": "Acromelanistic, Albino, Brown, Dark-Brown, Light Brown, Melanistic, Mosaic, Piebald, TanMission Exclusive: MochaFabled Exclusive: Spruce, Two Tone, Ashen, Birch, Oak, Speckled",
-        "Trophies": {
-            "Silver": "86.22",
-            "Gold": "194.09",
-            "Diamond": "274.99"
-        },
-        "Need_Zones": [
-            {
-                "Time": "00:00-04:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "04:00-08:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "08:00-12:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "12:00-16:00",
-                "Activity": "Drinking"
-            },
-            {
-                "Time": "16:00-20:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "20:00-00:00",
-                "Activity": "Feeding"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male",
-                "Details": {
-                    "Common": [
-                        "Tan,",
-                        "Light Brown,",
-                        "Brown"
-                    ],
-                    "Rare": [
-                        "Piebald,",
-                        "Mosaic"
-                    ],
-                    "Very Rare": [
-                        "Acromelanistic,",
-                        "Albino,",
-                        "Melanistic"
-                    ]
-                }
-            },
-            {
-                "Sex": "Female",
-                "Details": {
-                    "Common": [
-                        "Tan,",
-                        "Dark Brown,",
-                        "Brown (33.20)"
-                    ],
-                    "Rare": [
-                        "Piebald"
-                    ],
-                    "Very Rare": [
-                        "Acromelanistic,",
-                        "Albino,",
-                        "Melanistic"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+    "Need_Zones": [
+      {
+        "Time": "00:00 - 04:30",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "04:00 - 08:30",
+        "Activity": "Drinking"
+      },
+      {
+        "Time": "08:00 - 12:30",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "12:00 - 16:30",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "16:00 - 20:30",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "20:00 - 00:30",
+        "Activity": "Resting"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male",
+        "Details": {
+          "Common": ["Dark Brown", "Light Brown"],
+          "Rare": ["Piebald"],
+          "Very Rare": ["Albino,", "Leucistic,", "Melanistic"]
+        }
+      },
+      {
+        "Sex": "Female",
+        "Details": {
+          "Common": ["Dark Brown", "Light Brown"],
+          "Very Rare": ["Albino,", "Leucistic,", "Melanistic"]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Moose",
+    "id": "moose",
+    "Class": "8",
+    "Difficulty": "1: Trivial — 5: Medium10: Fabled",
+    "Trophy Type": "Antlers",
+    "Weight": "320kg — 620kg700kg , Great One705lbs — 1367lbs1543lbs , Great One",
+    "Fur": "Acromelanistic, Albino, Brown, Dark-Brown, Light Brown, Melanistic, Mosaic, Piebald, TanMission Exclusive: MochaFabled Exclusive: Spruce, Two Tone, Ashen, Birch, Oak, Speckled",
+    "Trophies": {
+      "Silver": "86.22",
+      "Gold": "194.09",
+      "Diamond": "274.99"
     },
-    {
-        "Name": "Grizzly Bear",
-        "id": "grizzly_bear",
-        "Class": "8",
-        "Difficulty": "1: Trivial — 9: Legendary",
-        "Trophy Type": "Skull",
-        "Weight": "165kg — 680kg364lbs — 1499lbs",
-        "Fur": "Albino, Brown, Grey Brown, Melanistic",
-        "Trophies": {
-            "Silver": "52.60",
-            "Gold": "60.80",
-            "Diamond": "66.94"
-        },
-        "Need_Zones": [
-            {
-                "Time": "00:00 - 04:00",
-                "Activity": "Feeding"
-            },
-            {
-                "Time": "04:00 – 08:00",
-                "Activity": "Drinking"
-            },
-            {
-                "Time": "08:00 – 12:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "12:00 – 16:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "16:00 – 20:00",
-                "Activity": "Resting"
-            },
-            {
-                "Time": "20:00 – 00:00",
-                "Activity": "Feeding"
-            }
-        ],
-        "Variants": [
-            {
-                "Sex": "Male/Female",
-                "Details": {
-                    "Common": [
-                        "Gray Brown"
-                    ],
-                    "Rare": [
-                        "Brown"
-                    ],
-                    "Very Rare": [
-                        "Albino",
-                        "Melanistic"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
+    "Need_Zones": [
+      {
+        "Time": "00:00-04:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "04:00-08:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "08:00-12:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "12:00-16:00",
+        "Activity": "Drinking"
+      },
+      {
+        "Time": "16:00-20:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "20:00-00:00",
+        "Activity": "Feeding"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male",
+        "Details": {
+          "Common": ["Tan,", "Light Brown,", "Brown"],
+          "Rare": ["Piebald,", "Mosaic"],
+          "Very Rare": ["Acromelanistic,", "Albino,", "Melanistic"]
+        }
+      },
+      {
+        "Sex": "Female",
+        "Details": {
+          "Common": ["Tan,", "Dark Brown,", "Brown (33.20)"],
+          "Rare": ["Piebald"],
+          "Very Rare": ["Acromelanistic,", "Albino,", "Melanistic"]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Grizzly Bear",
+    "id": "grizzly_bear",
+    "Class": "8",
+    "Difficulty": "1: Trivial — 9: Legendary",
+    "Trophy Type": "Skull",
+    "Weight": "165kg — 680kg364lbs — 1499lbs",
+    "Fur": "Albino, Brown, Grey Brown, Melanistic",
+    "Trophies": {
+      "Silver": "52.60",
+      "Gold": "60.80",
+      "Diamond": "66.94"
     },
-    {
-        "Name": "Plains Bison",
-        "id": "plains_bison",
-        "Class": "9",
-        "Difficulty": "1: Trivial — 5: Medium",
-        "Trophy Type": "Horns",
-        "Weight": "350kg — 1200kg772lbs — 2646lbs",
-        "Fur": "Albino, Brown, Dark, Light Brown, Light Grey, Leucistic, Melanistic",
-        "Trophies": {
-            "Silver": "117.73",
-            "Gold": "155.31",
-            "Diamond": "183.5"
-        },
-        "Need_Zones": [],
-        "Variants": [
-            {
-                "Sex": "Male/Female",
-                "Details": {
-                    "Common": [
-                        "Light Brown",
-                        "Light Grey<",
-                        "Brown",
-                        "Dark"
-                    ],
-                    "Very Rare": [
-                        "Albino",
-                        "Leucistic",
-                        "Melanistic"
-                    ]
-                }
-            }
-        ],
-        "img_ext": "png"
-    }
+    "Need_Zones": [
+      {
+        "Time": "00:00 - 04:00",
+        "Activity": "Feeding"
+      },
+      {
+        "Time": "04:00 – 08:00",
+        "Activity": "Drinking"
+      },
+      {
+        "Time": "08:00 – 12:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "12:00 – 16:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "16:00 – 20:00",
+        "Activity": "Resting"
+      },
+      {
+        "Time": "20:00 – 00:00",
+        "Activity": "Feeding"
+      }
+    ],
+    "Variants": [
+      {
+        "Sex": "Male/Female",
+        "Details": {
+          "Common": ["Gray Brown"],
+          "Rare": ["Brown"],
+          "Very Rare": ["Albino", "Melanistic"]
+        }
+      }
+    ],
+    "img_ext": "png"
+  },
+  {
+    "Name": "Plains Bison",
+    "id": "plains_bison",
+    "Class": "9",
+    "Difficulty": "1: Trivial — 5: Medium",
+    "Trophy Type": "Horns",
+    "Weight": "350kg — 1200kg772lbs — 2646lbs",
+    "Fur": "Albino, Brown, Dark, Light Brown, Light Grey, Leucistic, Melanistic",
+    "Trophies": {
+      "Silver": "117.73",
+      "Gold": "155.31",
+      "Diamond": "183.5"
+    },
+    "Need_Zones": [],
+    "Variants": [
+      {
+        "Sex": "Male/Female",
+        "Details": {
+          "Common": ["Light Brown", "Light Grey<", "Brown", "Dark"],
+          "Very Rare": ["Albino", "Leucistic", "Melanistic"]
+        }
+      }
+    ],
+    "img_ext": "png"
+  }
 ]
