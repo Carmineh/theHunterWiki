@@ -4,29 +4,11 @@ import {
   OWHotkeys
 } from "@overwolf/overwolf-api-ts";
 
-/*
-Medved-Taiga National Park (based on the Siberian taiga)
-Vurhonga Savanna Reserve (representing the South African savannah)
-Parque Fernando (modeled after South American forests)
-Yukon Valley (based on Alaska's Fall season with little snow)
-Cuatro Colinas Game Reserve (inspired by Spain's Corn Fields and Hills)
-Silver Ridge Peaks (modeled after the Rocky Mountains in the United States)
-Te Awaroa National Park (based on New Zealand's tall mountains and long coasts)
-Rancho del Arroyo (representing Mexico's Hilly landscape and jagged hills)
-Mississippi Acres Preserve (located in the swamps of the southern United States)
-Revontuli Coast (based on Finland's cold mossy forests and big lakes)
-New England Mountains (inspired by the states of the US in the New England region)
-Emerald Coast (based on the Australian Coast and thick bushy forests)
-Sundarpatan (located in Nepal's swampy lowlands and tall, snowy mountains)
-Salzwiesen Park (representing north German wetlands)
-Askiy Ridge Hunting Preserve (located in Alberta, Canada)
-Tòrr nan Sithean (based on the Scottish highlands)
-*/
 const AVAILABLE_MAPS = [
   { name: "Hirschfelden", id: "hirschfelden_hunting_reserve" },
   { name: "Layton Lake District ", id: "layton_lake_district" },
   { name: "Medved-Taiga National Park", id: "medved-taiga_national_park" },
-  { name: "Vurhonga Savanna Reserve", id: "vurhonga_savanna_reserve" },
+  { name: "Vurhonga Savanna Reserve", id: "vurhonga_savanna" },
   { name: "Parque Fernando", id: "parque_fernando" },
   { name: "Yukon Valley", id: "yukon_valley" },
   { name: "Cuatro Colinas Reserve", id: "cuatro_colinas_reserve" },
@@ -41,93 +23,147 @@ const AVAILABLE_MAPS = [
   { name: "Salzwiesen Park", id: "salzwiesen_park" },
   { name: "Askiy Ridge Hunting Preserve", id: "askiy_ridge_hunting_preserve" },
   { name: "Tòrr nan Sithean", id: "torr_nan_sithean" }
-  
 ];
 
-// --- INTERFACCE ---
-interface NeedZone {
-  Time: string;
-  Activity: string;
+export interface NeedZone {
+    Time: string;
+    Activity: string;
 }
 
-interface FurDetails {
-  Common: string[];
-  "Very Rare"?: string[];
-  Rare?: string[];
+// Support new structure: array of objects keyed by reserve id
+// e.g. [{ "medved-taiga_national_park": [ { Time, Activity }, ... ] }, ...]
+type NeedZoneGroup = Record<string, NeedZone[]>;
+
+interface TrophyRatings {
+    Silver: string | number;
+    Gold: string | number;
+    Diamond: string | number;
 }
 
-interface Variant {
-  Sex: string;
-  Details: FurDetails;
+export interface FurVariant {
+    Sex: string;
+    Details: {
+        Common?: string[];
+        "Very Rare"?: string[];
+        Rare?: string[];
+    };
 }
 
-interface AnimalData {
-  id: string;
-  Name: string;
-  Class: string;
-  Difficulty: string;
-  "Trophy Type": string;
-  Weight: string;
-  Need_Zones: NeedZone[];
-  Variants: Variant[];
+export interface AnimalData {
+    id: string;
+    Name: string;
+    Class: string; 
+    Difficulty: string;
+    "Trophy Type": string;
+    Weight: string;
+    // Accept legacy flat array or new grouped-by-reserve structure
+    Need_Zones: (NeedZone | NeedZoneGroup)[];
+    Variants: FurVariant[];
+    Trophies?: TrophyRatings;
+    Trophy_Ratings?: TrophyRatings;
 }
 
-// --- CONTROLLER PRINCIPALE ---
 class InGameController {
   
   private animalsData: Record<string, AnimalData> = {};
   private mapsData: Record<string, string[]> = {};
+    private lastOpenedMapName: string | null = null;
 
   constructor() {
     this.init();
   }
 
   async init() {
-    // 1. Carica i dati
     await this.loadData();
-
-    // 2. Setup UI
     this.renderMaps();
 
-    // 3. Listeners Navigazione
     document.getElementById('btn-back-home')?.addEventListener('click', () => this.switchView('view-home'));
     document.getElementById('btn-back-map')?.addEventListener('click', () => this.switchView('view-map'));
 
-    // 4. Search Bar
     const searchInput = document.getElementById('search-bar') as HTMLInputElement;
     searchInput?.addEventListener('input', (e) => this.handleSearch((e.target as HTMLInputElement).value));
   }
 
-  // --- CARICAMENTO DATI ---
   async loadData() {
     try {
         const promises = AVAILABLE_MAPS.map(async (mapInfo) => {
             try {
-                // I dati rimangono in data/, le immagini in img/
                 const response = await fetch(`data/${mapInfo.id}.json`);
-                if (!response.ok) return; // Salta se il file non esiste
+                if (!response.ok) return; 
                 
                 const animalsList: AnimalData[] = await response.json();
                 
                 this.mapsData[mapInfo.name] = [];
 
                 animalsList.forEach(animal => {
-                    this.animalsData[animal.id] = animal;
+                    const normalizeNeedZonesForMap = (zones: (NeedZone | NeedZoneGroup)[] | undefined, mapId: string): NeedZoneGroup[] => {
+                        if (!zones) return [];
+                        const grouped: NeedZoneGroup[] = [];
+                        const flat: NeedZone[] = [];
+
+                        zones.forEach(z => {
+                            if (z && typeof z === 'object' && 'Time' in z) {
+                                flat.push(z as NeedZone);
+                            } else if (z && typeof z === 'object') {
+                                grouped.push(z as NeedZoneGroup);
+                            }
+                        });
+
+                        if (flat.length > 0) grouped.push({ [mapId]: flat });
+                        return grouped;
+                    };
+
+                    const mergeNeedZones = (existingGroups: NeedZoneGroup[], incomingGroups: NeedZoneGroup[]): NeedZoneGroup[] => {
+                        const merged = new Map<string, NeedZone[]>();
+
+                        const add = (groups: NeedZoneGroup[]) => {
+                            groups.forEach(g => {
+                                Object.entries(g).forEach(([reserveId, zones]) => {
+                                    const list = merged.get(reserveId) || [];
+                                    merged.set(reserveId, [...list, ...(zones || [])]);
+                                });
+                            });
+                        };
+
+                        add(existingGroups);
+                        add(incomingGroups);
+
+                        return Array.from(merged.entries()).map(([reserveId, zones]) => ({ [reserveId]: zones }));
+                    };
+
+                    const existing = this.animalsData[animal.id];
+                    const incomingGroups = normalizeNeedZonesForMap(animal.Need_Zones, mapInfo.id);
+
+                    if (existing) {
+                        const existingGroups = normalizeNeedZonesForMap(existing.Need_Zones, mapInfo.id);
+                        const merged: AnimalData = {
+                            ...existing,
+                            ...animal,
+                            Need_Zones: mergeNeedZones(existingGroups, incomingGroups)
+                        };
+                        this.animalsData[animal.id] = merged;
+                    } else {
+                        this.animalsData[animal.id] = {
+                            ...animal,
+                            Need_Zones: incomingGroups
+                        };
+                    }
                     this.mapsData[mapInfo.name].push(animal.id);
                 });
 
             } catch (err) {
-                console.warn(`Errore caricamento ${mapInfo.name}:`, err);
+                console.warn(`Error loading ${mapInfo.name}:`, err);
             }
         });
 
         await Promise.all(promises);
-        console.log("Database caricato.", Object.keys(this.animalsData).length, "animali totali.");
+        console.log("Database loaded.", Object.keys(this.animalsData).length, "total animals.");
 
     } catch (error) {
-        console.error("Errore critico loadData:", error);
+        console.error("Critical error in loadData:", error);
     }
   }
+
   renderMaps() {
     const container = document.getElementById('maps-container');
     if (!container) return;
@@ -151,7 +187,8 @@ class InGameController {
     });
   }
 
-  openMap(mapName: string) {
+    openMap(mapName: string) {
+        this.lastOpenedMapName = mapName;
     const animalIds = this.mapsData[mapName] || [];
     const container = document.getElementById('map-animals-container');
     const title = document.getElementById('current-map-title');
@@ -164,13 +201,12 @@ class InGameController {
           container.innerHTML = '<p style="padding:20px; color:#aaa;">Nessun dato per questa mappa.</p>';
       }
 
-      animalIds.forEach(id => {
+            animalIds.forEach(id => {
         const animal = this.animalsData[id];
         if (animal) { 
             const div = document.createElement('div');
             div.className = 'minimal-item';
             
-            // PATH IMMAGINI: img/animals/.. e img/classes/..
             const animalImg = `img/animals/${animal.id}.png`;
             const classImg = `img/classes/class_${animal.Class}.png`;
 
@@ -181,7 +217,7 @@ class InGameController {
                 </div>
                 <span class="item-title">${animal.Name}</span>
             `;
-            div.addEventListener('click', () => this.openAnimal(animal));
+                        div.addEventListener('click', () => this.openAnimal(animal));
             container.appendChild(div);
         }
       });
@@ -194,32 +230,173 @@ class InGameController {
     const container = document.getElementById('animal-detail-content');
     if (!container) return;
 
-    // Genera icone Need Zones
-    const zonesHtml = animal.Need_Zones.map(z => {
-        const iconName = z.Activity.toLowerCase().split(' ')[0]; 
-        // PATH: img/need_zones/...
-        return `
-            <li class="zone-item">
-                <img src="img/need_zones/${iconName}.png" class="zone-icon" onerror="this.style.display='none'">
-                <span class="zone-time">${z.Time}</span>
-                <span class="zone-activity">${z.Activity}</span>
-            </li>
-        `;
-    }).join('');
+    const findFirstMapForAnimal = (): string | null => {
+        for (const [mapName, ids] of Object.entries(this.mapsData)) {
+            if (ids.includes(animal.id)) return mapName;
+        }
+        return null;
+    };
 
-    // Genera Varianti
-    let variantsHtml = '';
-    animal.Variants.forEach(v => {
-        const d = v.Details;
-        if(d.Common) variantsHtml += `<div class="variant-category"><h4>Common</h4><div class="variant-tags">${d.Common.map(s => `<span>${s}</span>`).join('')}</div></div>`;
-        if(d["Very Rare"]) variantsHtml += `<div class="variant-category"><h4 style="color:#d4af37">Very Rare</h4><div class="variant-tags rare">${d["Very Rare"].map(s => `<span>${s}</span>`).join('')}</div></div>`;
+    // Normalize need zones to grouped-by-reserve format
+    const normalizeNeedZones = (): { reserveId: string; zones: NeedZone[] }[] => {
+        if (!animal.Need_Zones || animal.Need_Zones.length === 0) return [];
+
+        const mergedByReserve = new Map<string, NeedZone[]>();
+
+        const addZones = (reserveId: string, zones: NeedZone[] | undefined) => {
+            if (!zones || zones.length === 0) return;
+            const existing = mergedByReserve.get(reserveId) || [];
+            mergedByReserve.set(reserveId, [...existing, ...zones]);
+        };
+
+        (animal.Need_Zones as Array<NeedZone | NeedZoneGroup>).forEach(entry => {
+            if (entry && typeof entry === 'object' && 'Time' in entry) {
+                addZones('unknown', [entry as NeedZone]);
+                return;
+            }
+            if (entry && typeof entry === 'object') {
+                Object.entries(entry as NeedZoneGroup).forEach(([reserveId, zones]) => {
+                    addZones(reserveId, zones);
+                });
+            }
+        });
+
+        return Array.from(mergedByReserve.entries()).map(([reserveId, zones]) => ({ reserveId, zones }));
+    };
+
+    const needZoneGroups = normalizeNeedZones();
+    let currentZoneGroupIndex = 0;
+
+    const mapIdToName = (id: string): string => {
+        const found = AVAILABLE_MAPS.find(m => m.id === id || m.name === id);
+        if (found) return found.name;
+        if (id && id !== 'unknown') return id.replace(/_/g, ' ').replace(/\s+/g, ' ').trim();
+        return 'Unknown Reserve';
+    };
+
+    // --- Recupero Dati Trofei ---
+    const trophies = animal.Trophies || animal.Trophy_Ratings || { Silver: '-', Gold: '-', Diamond: '-' };
+
+    const parseDifficulty = (diffRaw: string) => {
+        const hasGreatOne = /fabled|great\s*one/i.test(diffRaw);
+        const regex = /(\d+)\s*:\s*([^—\-\d]+)/g;
+        const matches: { num: string; label: string }[] = [];
+        let m: RegExpExecArray | null;
+        while ((m = regex.exec(diffRaw)) !== null) {
+            const label = m[2].replace(/fabled/ig, '').trim();
+            if (label) matches.push({ num: m[1], label });
+        }
+
+        if (matches.length > 0) {
+            const last = matches[matches.length - 1];
+            const text = `${last.num} ${last.label.toUpperCase()}`;
+            return { text, hasGreatOne };
+        }
+
+        const cleaned = diffRaw.replace(/fabled/ig, '').trim();
+        return { text: cleaned || diffRaw, hasGreatOne };
+    };
+
+    const { text: difficultyText, hasGreatOne } = parseDifficulty(animal.Difficulty || '');
+
+    // --- Logica Varianti Fur ---
+    const furMap = new Map<string, { rarity: string, sexes: Set<string> }>();
+
+    const cleanVariantName = (name: string): string => {
+        return name
+            .replace(/,/g, '')           
+            .replace(/\s*\(.*?\)/g, '')  
+            .trim();                     
+    };
+
+    animal.Variants.forEach(variantGroup => {
+        const sex = variantGroup.Sex; 
+        const addToMap = (list: string[] | undefined, rarity: string) => {
+            if (!list) return;
+            list.forEach(rawName => {
+                const name = cleanVariantName(rawName);
+                if (!name) return;
+                if (!furMap.has(name)) furMap.set(name, { rarity, sexes: new Set() });
+                furMap.get(name)!.sexes.add(sex);
+            });
+        };
+        addToMap(variantGroup.Details.Common, 'Common');
+        addToMap(variantGroup.Details.Rare, 'Rare');
+        addToMap(variantGroup.Details["Very Rare"], 'Very Rare');
     });
 
-    // HEADER: Icona Grande SX | Info centrali | Classe DX
+    // Generazione HTML Varianti
+    let furListHtml = '';
+    const rarityPriority: Record<string, number> = { "Very Rare": 1, "Rare": 2, "Common": 3 };
+    
+    const sortedFurs = Array.from(furMap.entries()).sort((a, b) => {
+        const rA = rarityPriority[a[1].rarity] || 99;
+        const rB = rarityPriority[b[1].rarity] || 99;
+        if (rA !== rB) return rA - rB;
+        return a[0].localeCompare(b[0]);
+    });
+
+    sortedFurs.forEach(([name, info]) => {
+        let dotColorClass = 'dot-common';
+        if (info.rarity === 'Rare') dotColorClass = 'dot-rare';
+        if (info.rarity === 'Very Rare') dotColorClass = 'dot-very-rare';
+
+        let sexIconHtml = '';
+        if (info.sexes.size === 1) {
+            if (info.sexes.has('Female')) sexIconHtml = `<img src="img/icons/female.png" class="fur-sex-icon" alt="F">`;
+            else if (info.sexes.has('Male')) sexIconHtml = `<img src="img/icons/male.png" class="fur-sex-icon" alt="M">`; 
+        }
+
+        furListHtml += `
+            <li class="detail-list-item">
+                <div class="detail-left">
+                    <span class="fur-dot ${dotColorClass}"></span>
+                    <span class="detail-name">${name}</span>
+                </div>
+                <div class="detail-right">
+                    ${sexIconHtml}
+                </div>
+            </li>
+        `;
+    });
+
+    // --- Icone Header ---
     const animalIcon = `img/animals/${animal.id}.png`;
     const classIcon = `img/classes/class_${animal.Class}.png`;
 
+    // --- CSS Personalizzato (Aggiornato per supportare entrambi) ---
+    const customStyle = `
+        <style>
+            .details-header { margin-top: 0; margin-bottom: 10px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: #ccc; }
+            
+            /* Badge Rarità */
+            .rarity-badges { display: flex; gap: 8px; margin-bottom: 15px; }
+            .rarity-badge { padding: 4px 10px; border-radius: 4px; font-size: 12px; font-weight: bold; color: #fff; text-transform: uppercase; }
+            .badge-common { background-color: #7f8c8d; }
+            .badge-rare { background-color: #3498db; }
+            .badge-very-rare { background-color: #9b59b6; }
+            
+            /* Lista Condivisa (Need Zones & Fur) */
+            .details-list { list-style: none; padding: 0; margin: 0; }
+            .detail-list-item { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+            .detail-left { display: flex; align-items: center; gap: 10px; }
+            .detail-right { display: flex; align-items: center; }
+
+            /* Stili Specifici Elementi */
+            .detail-name { font-size: 14px; color: #ecf0f1; text-transform: capitalize; }
+            .fur-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+            .dot-common { background-color: #7f8c8d; }
+            .dot-rare { background-color: #3498db; }
+            .dot-very-rare { background-color: #9b59b6; }
+            
+            .zone-icon { height: 20px; width: auto; opacity: 0.9; }
+            .zone-time { font-size: 13px; color: #bdc3c7; font-family: 'Consolas', monospace; letter-spacing: 0.5px; }
+            .fur-sex-icon { height: 14px; width: auto; opacity: 0.8; }
+        </style>
+    `;
+
     container.innerHTML = `
+        ${customStyle}
         <div class="animal-header">
             <div class="header-left">
                 <img src="${animalIcon}" class="animal-icon-large" onerror="this.src='https://via.placeholder.com/100'">
@@ -232,28 +409,124 @@ class InGameController {
             </div>
         </div>
 
-        <div class="stats-row">
-            <div class="stat-box"><span class="stat-label">Difficulty</span><span class="stat-value">${animal.Difficulty}</span></div>
-            <div class="stat-box"><span class="stat-label">Trophy</span><span class="stat-value">${animal["Trophy Type"]}</span></div>
-            <div class="stat-box"><span class="stat-label">Weight</span><span class="stat-value">${animal.Weight}</span></div>
+        <div class="stats-row-trophies">
+             <div class="stat-group-basic stat-group-wide">
+                <div class="stat-box-small">
+                    <span class="stat-label">Max Difficulty</span>
+                    <span class="stat-value">${difficultyText}</span>
+                </div>
+                 <div class="stat-box-small">
+                    <span class="stat-label">Trophy Type</span>
+                    <span class="stat-value">${animal["Trophy Type"]}</span>
+                </div>
+            </div>
+
+            <div class="stat-group-medals">
+                <div class="medal-box">
+                    <img src="img/icons/silver.png" class="medal-icon" alt="Silver" width="64" height="64">
+                    <span class="medal-value">${trophies.Silver}</span>
+                </div>
+                <div class="medal-box">
+                    <img src="img/icons/gold.png" class="medal-icon" alt="Gold" width="64" height="64">
+                    <span class="medal-value">${trophies.Gold}</span>
+                </div>
+                <div class="medal-box">
+                    <img src="img/icons/diamond.png" class="medal-icon" alt="Diamond" width="64" height="64">
+                    <span class="medal-value">${trophies.Diamond}</span>
+                </div>
+                ${hasGreatOne ? `
+                <div class="medal-box greatone-box">
+                    <img src="img/icons/greatone.png" class="medal-icon" alt="Great One" width="64" height="64">
+                    <span class="medal-value"></span>
+                </div>` : ''}
+            </div>
         </div>
 
         <div class="details-split">
             <div>
-                <h3 class="section-title">Need Zones</h3>
-                ${zonesHtml ? `<ul class="zone-list">${zonesHtml}</ul>` : '<p style="color:#666;">No data.</p>'}
+                <h3 class="details-header">NEED ZONES</h3>
+                <div class="need-zone-switcher">
+                    <button class="zone-nav-btn" id="zone-prev">⟵</button>
+                    <span class="zone-label" id="zone-label"></span>
+                    <button class="zone-nav-btn" id="zone-next">⟶</button>
+                </div>
+                <ul class="details-list" id="need-zone-list"></ul>
             </div>
+            
             <div>
-                <h3 class="section-title">Fur Variants</h3>
-                ${variantsHtml || '<p style="color:#666;">No data.</p>'}
+                <h3 class="details-header">FUR TYPES</h3>
+                
+                <div class="rarity-badges">
+                    <span class="rarity-badge badge-common">Common</span>
+                    <span class="rarity-badge badge-rare">Rare</span>
+                    <span class="rarity-badge badge-very-rare">Very Rare</span>
+                </div>
+
+                <ul class="details-list">
+                    ${furListHtml || '<li style="color:#666; padding:10px 0;">No variant data.</li>'}
+                </ul>
             </div>
         </div>
     `;
 
+    // Need zone navigation rendering
+    const zoneLabelEl = container.querySelector('#zone-label') as HTMLElement | null;
+    const zoneListEl = container.querySelector('#need-zone-list') as HTMLElement | null;
+    const prevBtn = container.querySelector('#zone-prev') as HTMLButtonElement | null;
+    const nextBtn = container.querySelector('#zone-next') as HTMLButtonElement | null;
+
+    const renderZoneGroup = () => {
+        if (!zoneLabelEl || !zoneListEl) return;
+        if (needZoneGroups.length === 0) {
+            zoneLabelEl.innerText = 'No Zones';
+            zoneListEl.innerHTML = '<li style="color:#666; padding:10px 0;">No data available.</li>';
+            if (prevBtn) prevBtn.disabled = true;
+            if (nextBtn) nextBtn.disabled = true;
+            return;
+        }
+
+        const group = needZoneGroups[currentZoneGroupIndex];
+        zoneLabelEl.innerText = mapIdToName(group.reserveId);
+
+        const sortedZones = [...group.zones].sort((a, b) => a.Time.localeCompare(b.Time));
+        const html = sortedZones.map(z => {
+            const iconName = z.Activity.toLowerCase().split(' ')[0];
+            return `
+                <li class="detail-list-item">
+                    <div class="detail-left">
+                        <img src="img/need_zones/${iconName}.png" class="zone-icon" onerror="this.style.display='none'">
+                        <span class="detail-name">${z.Activity}</span>
+                    </div>
+                    <div class="detail-right">
+                        <span class="zone-time">${z.Time}</span>
+                    </div>
+                </li>
+            `;
+        }).join('');
+
+        zoneListEl.innerHTML = html || '<li style="color:#666; padding:10px 0;">No data available.</li>';
+
+        const multiple = needZoneGroups.length > 1;
+        if (prevBtn) prevBtn.disabled = !multiple;
+        if (nextBtn) nextBtn.disabled = !multiple;
+    };
+
+    prevBtn?.addEventListener('click', () => {
+        if (needZoneGroups.length < 2) return;
+        currentZoneGroupIndex = (currentZoneGroupIndex - 1 + needZoneGroups.length) % needZoneGroups.length;
+        renderZoneGroup();
+    });
+
+    nextBtn?.addEventListener('click', () => {
+        if (needZoneGroups.length < 2) return;
+        currentZoneGroupIndex = (currentZoneGroupIndex + 1) % needZoneGroups.length;
+        renderZoneGroup();
+    });
+
+    renderZoneGroup();
+
     this.switchView('view-animal');
   }
-
-  // --- UTILS ---
 
   switchView(viewId: string) {
     document.querySelectorAll('.view').forEach(el => el.classList.add('hidden'));
@@ -279,7 +552,17 @@ class InGameController {
         uniqueMatches.forEach(animal => {
             const div = document.createElement('div');
             div.className = 'search-item';
-            div.innerText = animal.Name;
+            const animalImg = `img/animals/${animal.id}.png`;
+            const classImg = `img/classes/class_${animal.Class}.png`;
+            div.innerHTML = `
+                <div class="search-item-left">
+                    <img src="${animalImg}" class="search-thumb" onerror="this.style.display='none'">
+                    <span class="search-name">${animal.Name}</span>
+                </div>
+                <div class="search-item-right">
+                    <img src="${classImg}" class="search-class" onerror="this.style.display='none'">
+                </div>
+            `;
             div.onclick = () => {
                 this.openAnimal(animal);
                 resultsContainer.classList.add('hidden');

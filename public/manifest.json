@@ -16,7 +16,7 @@
     "start_window": "background",
     "hotkeys": {
       "show_hide_wiki": {
-        "title": "Mostra/Nascondi Wiki",
+        "title": "Show/Hide theHunterWiki",
         "action-type": "custom",
         "default": "Ctrl+B"
       }

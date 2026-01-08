@@ -7,6 +7,11 @@
         "Trophy Type": "Combined",
         "Weight": "500g — 3kg1.1lbs — 7lbs",
         "Plumage": "Albino , Brown, Grey, Leucistic, Melanistic, Molting, White BrownFabled Exclusive: Citrine, Emerald, Garnet, Morganite, Obsidian, Pearl, Ruby, Sapphire",
+        "Trophies": {
+            "Silver": "9.10",
+            "Gold": "15.50",
+            "Diamond": "20.30"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00-04:00",
@@ -79,6 +84,11 @@
         "Trophy Type": "Weight",
         "Weight": "2kg — 7kg4lbs — 15lbs",
         "Fur": "Albino, Brown, Dark-Brown, Light Brown, Grey, Melanistic",
+        "Trophies": {
+            "Silver": "3",
+            "Gold": "5",
+            "Diamond": "6.5"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -140,6 +150,11 @@
         "Trophy Type": "Antlers",
         "Weight": "? — 35 kg? — 77lbs",
         "Fur": "Albino, Brown, Dark Brown, Dark Grey, Leucistic, Melanistic, Orange, Piebald, Tan",
+        "Trophies": {
+            "Silver": "41",
+            "Gold": "64.3",
+            "Diamond": "81.8"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -184,8 +199,8 @@
                         "Piebald Variation 2"
                     ],
                     "Very Rare": [
-                        "Albino",
-                        "Leucistic",
+                        "Albino,",
+                        "Leucistic (0.05)",
                         "Melanistic"
                     ]
                 }
@@ -202,8 +217,8 @@
                         "Piebald"
                     ],
                     "Very Rare": [
-                        "Albino",
-                        "Leucistic",
+                        "Albino,",
+                        "Leucistic (0.05 %)",
                         "Melanistic"
                     ]
                 }
@@ -219,6 +234,11 @@
         "Trophy Type": "Horns",
         "Weight": "35kg — 70kg77lbs — 154lbs",
         "Fur": "Albino, Brown, Brown Hybrid, Buff, Grey, Grey-Brown, Melanistic",
+        "Trophies": {
+            "Silver": "69.2",
+            "Gold": "91.4",
+            "Diamond": "107.9"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -254,9 +274,9 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "Brown",
-                        "Brown Hybrid",
-                        "Grey",
+                        "Brown,",
+                        "Brown Hybrid,",
+                        "Grey,",
                         "Grey Brown"
                     ],
                     "Very Rare": [
@@ -269,12 +289,12 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Brown",
-                        "Buff",
+                        "Brown,",
+                        "Buff,",
                         "Light Brown"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -290,6 +310,11 @@
         "Trophy Type": "Horns",
         "Weight": "35kg — 110kg77lbs — 243lbs",
         "Fur": "Albino, Brown Hybrid, Buff, Grey, Grey-Brown, Light Brown, Melanistic, Orange",
+        "Trophies": {
+            "Silver": "78.00",
+            "Gold": "142.90",
+            "Diamond": "191.60"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -325,13 +350,13 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "Brown Hybrid",
-                        "Grey",
-                        "Grey Brown",
+                        "Brown Hybrid,",
+                        "Grey,",
+                        "Grey Brown,",
                         "Orange"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -340,12 +365,12 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Buff",
-                        "Light Brown",
+                        "Buff,",
+                        "Light Brown,",
                         "Grey Brown"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -361,6 +386,11 @@
         "Trophy Type": "Horns",
         "Weight": "35kg — 102kg77lbs — 225lbs",
         "Fur": "Albino, Brown Hybrid, Buff, Gray Brown, Grey, Light Brown, Light Grey, Melanistic",
+        "Trophies": {
+            "Silver": "54.3",
+            "Gold": "80.5",
+            "Diamond": "100.1"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -396,13 +426,13 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "Brown Hybrid",
-                        "Grey Brown",
-                        "Grey",
+                        "Brown Hybrid,",
+                        "Grey Brown,",
+                        "Grey,",
                         "Light Grey"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -411,12 +441,12 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Buff",
-                        "Light Brown",
+                        "Buff,",
+                        "Light Brown,",
                         "Light Grey"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -432,6 +462,11 @@
         "Trophy Type": "Horns",
         "Weight": "35kg — 90kg77lbs — 198lbs",
         "Fur": "Albino, Brown Hybrid, Buff, Grey-Brown, Light Brown, Light Grey, Melanistic, Orange",
+        "Trophies": {
+            "Silver": "49.7",
+            "Gold": "72.5",
+            "Diamond": "89.6"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -473,7 +508,7 @@
                         "Orange"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -482,12 +517,12 @@
                 "Sex": "Female",
                 "Details": {
                     "Common": [
-                        "Brown Hybrid",
-                        "Buff",
+                        "Brown Hybrid,",
+                        "Buff,",
                         "Light Brown"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -503,6 +538,11 @@
         "Trophy Type": "Horns",
         "Weight": "30kg — 60kg66lbs — 132lbs",
         "Fur": "Albino, Brown, Grey, Light Brown, Melanistic",
+        "Trophies": {
+            "Silver": "97.01",
+            "Gold": "144.18",
+            "Diamond": "179.56"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -542,14 +582,14 @@
                 "Sex": "Male",
                 "Details": {
                     "Common": [
-                        "Brown",
+                        "Brown,",
                         "Light Brown"
                     ],
                     "Rare": [
                         "Grey"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -580,6 +620,11 @@
         "Trophy Type": "Tusks",
         "Weight": "25kg — 240kg55lbs — 529lbs",
         "Fur": "Albino, Blackgold, Brown, Dark Brown, Light Brown, Melanistic, PurplegreyFabled Exclusive: Ash, Brindle, Butterscotch, Chalk, Cinder, Scorch, Smolder, Stitch, Stripple",
+        "Trophies": {
+            "Silver": "37.50",
+            "Gold": "98.50",
+            "Diamond": "144.25"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -625,7 +670,7 @@
                         "Purplegrey"
                     ],
                     "Very Rare": [
-                        "Albino",
+                        "Albino,",
                         "Melanistic"
                     ]
                 }
@@ -641,9 +686,14 @@
         "Trophy Type": "Skull",
         "Weight": "30kg — 50kg66lbs — 110lbs",
         "Fur": "Albino, Grey, Grey-Brown, Melanistic, Olive, Pristine, WinterMission Exclusive: Ogro, Sombra, Fantasma",
+        "Trophies": {
+            "Silver": "32",
+            "Gold": "36",
+            "Diamond": "39"
+        },
         "Need_Zones": [
             {
-                "Time": "00:00 - 03:30",
+                "Time": "00:00 – 03:30",
                 "Activity": "Feeding"
             },
             {
@@ -710,6 +760,11 @@
         "Trophy Type": "Antlers",
         "Weight": "120kg — 240kg265lbs — 529lbs",
         "Fur": "Albino, Brown, Dark Brown, Erythristic, Leucistic, Light Brown, Melanistic, PiebaldFabled Exclusive: Spotted",
+        "Trophies": {
+            "Silver": "90.50",
+            "Gold": "182.25",
+            "Diamond": "251.07"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",

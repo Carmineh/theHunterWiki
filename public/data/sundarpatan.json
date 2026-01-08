@@ -7,6 +7,11 @@
         "Trophy Type": "Weight",
         "Weight": "2.5kg — 4kg6lbs — 9lbs",
         "Plumage": "Brown, Grey, Hybrid, Leucistic",
+        "Trophies": {
+            "Silver": "2.80",
+            "Gold": "3.40",
+            "Diamond": "3.85"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -37,6 +42,11 @@
         "Trophy Type": "Weight",
         "Weight": "0kg — 3kg0lbs — 7lbs",
         "Fur": "Albino, Dark Brown, Light Brown, Light Grey, Molting, White",
+        "Trophies": {
+            "Silver": "1.74",
+            "Gold": "2.62",
+            "Diamond": "3.28"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -96,6 +106,11 @@
         "Trophy Type": "Antlers",
         "Weight": "12kg — 28kg26lbs — 62lbs",
         "Fur": "Albino , Leucistic, Melanistic, Red",
+        "Trophies": {
+            "Silver": "25.25",
+            "Gold": "30.96",
+            "Diamond": "35.24"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -157,6 +172,11 @@
         "Trophy Type": "Weight",
         "Weight": "0kg — 6kg0lbs — 13lbs",
         "Fur": "Albino, Grey, Leucistic, Melanistic, Orange, Red, Sand, Smoke, Tawny",
+        "Trophies": {
+            "Silver": "3.36",
+            "Gold": "5.08",
+            "Diamond": "6.37"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -219,6 +239,11 @@
         "Trophy Type": "Horns",
         "Weight": "? — 51kg? — 112lbs",
         "Fur": "Albino, Beige, Brown, Dark Brown, Leucistic, Melanistic, Piebald",
+        "Trophies": {
+            "Silver": "71.8",
+            "Gold": "106.3",
+            "Diamond": "132.2"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -269,6 +294,11 @@
         "Trophy Type": "Horns",
         "Weight": "0kg — 75kg0lbs — 165lbs",
         "Fur": "Albino, Blue Gray, Brown, Leucistic, Melanistic, Slate Gray, Yellow",
+        "Trophies": {
+            "Silver": "67.37",
+            "Gold": "116.92",
+            "Diamond": "154.08"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -331,6 +361,11 @@
         "Trophy Type": "Skull",
         "Weight": "0kg — 75kg0lbs — 165lbs",
         "Fur": "Albino, Caramel, Leucistic, Melanistic, Snow",
+        "Trophies": {
+            "Silver": "22",
+            "Gold": "26",
+            "Diamond": "29"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -395,6 +430,11 @@
         "Trophy Type": "Horns",
         "Weight": "0kg — 140kg180kg , Great One0lbs — 309lbs397lbs , Great One",
         "Fur": "Albino, Black, Dark Brown, Dark Red, Light Brown, Red, Red Brown, Straw, WhiteFabled Exclusive: Gold, Gray, Half, Latte, Scars, Skull, Snow",
+        "Trophies": {
+            "Silver": "61.23",
+            "Gold": "84.46",
+            "Diamond": "101.87"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -478,6 +518,11 @@
         "Trophy Type": "Antlers",
         "Weight": "0kg — 280kg0lbs — 617lbs",
         "Fur": "Albino, Brown, Dark Brown, Dark Red, Leucistic, Light Brown, Melanistic, Piebald, Red",
+        "Trophies": {
+            "Silver": "95.88",
+            "Gold": "170.26",
+            "Diamond": "226.05"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -544,6 +589,11 @@
         "Trophy Type": "Horns",
         "Weight": "0kg — 308kg0lbs — 679lbs",
         "Fur": "Blue, Brown, Dark Brown, Light Brown, Piebald",
+        "Trophies": {
+            "Silver": "69.17",
+            "Gold": "83.87",
+            "Diamond": "94.89"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -612,6 +662,11 @@
         "Trophy Type": "Skull",
         "Weight": "0kg — 324kg0lbs — 714lbs",
         "Fur": "Albino, Gold, Orange, Pseudo-Melanistic, Pseudo-Melanistic White, Melanistic, White, White Stripeless",
+        "Trophies": {
+            "Silver": "36",
+            "Gold": "48",
+            "Diamond": "57"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -673,6 +728,11 @@
         "Trophy Type": "Horns",
         "Weight": "? — 1250kg? — 2756lbs",
         "Fur": "Albino , Black, Brown, Grey, Orange",
+        "Trophies": {
+            "Silver": "84.27",
+            "Gold": "138.15",
+            "Diamond": "167.54"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -719,6 +779,11 @@
         "Trophy Type": "Horns",
         "Weight": "0kg — 1200kg0lbs — 2646lbs",
         "Fur": "Albino, Dark Brown, Dark Red, Dark Red Brown, Gold, Jet Black, Jet Brown, Leucistic",
+        "Trophies": {
+            "Silver": "174.60",
+            "Gold": "230.96",
+            "Diamond": "273.23"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",

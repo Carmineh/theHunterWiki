@@ -7,21 +7,26 @@
         "Trophy Type": "Weight",
         "Weight": "500g — 750g1.1lbs — 1.7lbs",
         "Plumage": "Albino, Dark, Dark Brown, Dark Grey, Grey, Melanistic, Piebald",
+        "Trophies": {
+            "Silver": "5.34",
+            "Gold": "6.42",
+            "Diamond": "7.23"
+        },
         "Need_Zones": [
             {
                 "Time": "05:00 - 07:00",
                 "Activity": "Feeding"
             },
             {
-                "Time": "09:00 - 11:00",
+                "Time": "09:00 – 11:00",
                 "Activity": "Feeding"
             },
             {
-                "Time": "13:00 - 15:00",
+                "Time": "13:00 – 15:00",
                 "Activity": "Feeding"
             },
             {
-                "Time": "17:00 - 19:00",
+                "Time": "17:00 – 19:00",
                 "Activity": "Feeding"
             }
         ],
@@ -66,6 +71,11 @@
         "Trophy Type": "Weight",
         "Weight": "3.2kg — 9.2kg7lbs — 20lbs",
         "Plumage": "Albino, Brown Hybrid, Grey, Grey Brown, Light Grey Leucistic, Melanistic, White Hybrid",
+        "Trophies": {
+            "Silver": "4.40",
+            "Gold": "6.80",
+            "Diamond": "8.59"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 05:00",
@@ -132,6 +142,11 @@
         "Trophy Type": "Weight",
         "Weight": "1kg — 15.4kg2lbs — 34lbs",
         "Fur": "Albino, Dark Red, Melanistic, Orange, Piebald, RedFabled Exclusive: Blood Moon, Candycane, Cherry Blossom, Licorice, Midnight Poppy, Mystic Snowdrop, Peppermint, Rosebud Frost, Scarlet Nightshade",
+        "Trophies": {
+            "Silver": "4.66",
+            "Gold": "10.03",
+            "Diamond": "14.05"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -191,6 +206,11 @@
         "Trophy Type": "Skull",
         "Weight": "30kg — 80kg66lbs — 176lbs",
         "Fur": "Acromelanistic, Albino, Brown, Egg White, Dark Grey, Grey, Melanistic, Melanistic Charcoal, Red BrownFabled Exclusive: Battlethorne, Dawnbreak, Frostbite, Gravehide, Hollow, Razorwind, Scarborne, Twinsoul, Vanguard",
+        "Trophies": {
+            "Silver": "32",
+            "Gold": "36",
+            "Diamond": "39"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00-03:00",
@@ -251,6 +271,11 @@
         "Trophy Type": "Antlers",
         "Weight": "? — 190kg? — 419lbs",
         "Fur": "Albino, Dark Brown, Leucistic, Light Brown, Melanistic, Piebald",
+        "Trophies": {
+            "Silver": "152.53",
+            "Gold": "311.21",
+            "Diamond": "430.23"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -320,6 +345,11 @@
         "Trophy Type": "Antlers",
         "Weight": "320kg — 620kg700kg , Great One705lbs — 1367lbs1543lbs , Great One",
         "Fur": "Acromelanistic, Albino, Brown, Dark-Brown, Light Brown, Melanistic, Mosaic, Piebald, TanMission Exclusive: MochaFabled Exclusive: Spruce, Two Tone, Ashen, Birch, Oak, Speckled",
+        "Trophies": {
+            "Silver": "86.22",
+            "Gold": "194.09",
+            "Diamond": "274.99"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00-04:00",
@@ -372,7 +402,7 @@
                     "Common": [
                         "Tan,",
                         "Dark Brown,",
-                        "Brown "
+                        "Brown (33.20)"
                     ],
                     "Rare": [
                         "Piebald"
@@ -395,29 +425,34 @@
         "Trophy Type": "Skull",
         "Weight": "165kg — 680kg364lbs — 1499lbs",
         "Fur": "Albino, Brown, Grey Brown, Melanistic",
+        "Trophies": {
+            "Silver": "52.60",
+            "Gold": "60.80",
+            "Diamond": "66.94"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
                 "Activity": "Feeding"
             },
             {
-                "Time": "04:00 - 08:00",
+                "Time": "04:00 – 08:00",
                 "Activity": "Drinking"
             },
             {
-                "Time": "08:00 - 12:00",
+                "Time": "08:00 – 12:00",
                 "Activity": "Resting"
             },
             {
-                "Time": "12:00 - 16:00",
+                "Time": "12:00 – 16:00",
                 "Activity": "Resting"
             },
             {
-                "Time": "16:00 - 20:00",
+                "Time": "16:00 – 20:00",
                 "Activity": "Resting"
             },
             {
-                "Time": "20:00 - 00:00",
+                "Time": "20:00 – 00:00",
                 "Activity": "Feeding"
             }
         ],
@@ -448,6 +483,11 @@
         "Trophy Type": "Horns",
         "Weight": "350kg — 1200kg772lbs — 2646lbs",
         "Fur": "Albino, Brown, Dark, Light Brown, Light Grey, Leucistic, Melanistic",
+        "Trophies": {
+            "Silver": "117.73",
+            "Gold": "155.31",
+            "Diamond": "183.5"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -455,7 +495,7 @@
                 "Details": {
                     "Common": [
                         "Light Brown",
-                        "Light Grey",
+                        "Light Grey<",
                         "Brown",
                         "Dark"
                     ],

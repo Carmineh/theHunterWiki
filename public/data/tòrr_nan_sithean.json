@@ -7,6 +7,11 @@
         "Trophy Type": "Combined",
         "Weight": "700g — 1250g1.5lbs — 2.8lbs",
         "Plumage": "Brown, Dark, Gold, Leucistic, Melanistic, Orange",
+        "Trophies": {
+            "Silver": "85",
+            "Gold": "105",
+            "Diamond": "120"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -77,6 +82,11 @@
         "Trophy Type": "weight",
         "Weight": "? — 0.64kg? — 1lbs",
         "Plumage": "Albino, Brown, Dark Red, Leucistic, Light Brown, Melanistic, Piebald, Red",
+        "Trophies": {
+            "Silver": "57",
+            "Gold": "66",
+            "Diamond": "72.75"
+        },
         "Need_Zones": [
             {
                 "Time": "04:00 - 08:00",
@@ -129,6 +139,11 @@
         "Trophy Type": "Weight",
         "Weight": "500g — 920g1.1lbs — 2lbs",
         "Plumage": "Brown, Dark, Eclipse, Grey, Hybrid, Leucistic",
+        "Trophies": {
+            "Silver": "590",
+            "Gold": "770",
+            "Diamond": "905"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 05:30",
@@ -176,12 +191,12 @@
                         "Grey"
                     ],
                     "Rare": [
-                        "Eclipse"
+                        "Eclipse (0,27%)"
                     ],
                     "Very Rare": [
-                        "Leucistic Variation 1,",
-                        "Leucistic Variation 2,",
-                        "Hybrid"
+                        "Leucistic Variation 1 (0,04%),",
+                        "Leucistic Variation 2 (0,04%),",
+                        "Hybrid (0,04%)"
                     ]
                 }
             },
@@ -193,11 +208,11 @@
                         "Grey"
                     ],
                     "Rare": [
-                        "Dark"
+                        "Dark (0,27%)"
                     ],
                     "Very Rare": [
-                        "Leucistic Variation 1,",
-                        "Leucistic Variation 2"
+                        "Leucistic Variation 1 (0,04%),",
+                        "Leucistic Variation 2 (0,04%)"
                     ]
                 }
             }
@@ -212,6 +227,11 @@
         "Trophy Type": "weight",
         "Weight": "? — 0.25kg? — 1lbs",
         "Plumage": "Albino, Brown, Dark Brown, Grey, Leucistic, Melanistic",
+        "Trophies": {
+            "Silver": "25.84",
+            "Gold": "34.52",
+            "Diamond": "41.03"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -255,6 +275,11 @@
         "Trophy Type": "Combined",
         "Weight": "500g — 3kg1.1lbs — 7lbs",
         "Plumage": "Albino , Brown, Grey, Leucistic, Melanistic, Molting, White BrownFabled Exclusive: Citrine, Emerald, Garnet, Morganite, Obsidian, Pearl, Ruby, Sapphire",
+        "Trophies": {
+            "Silver": "9.10",
+            "Gold": "15.50",
+            "Diamond": "20.30"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00-04:00",
@@ -327,6 +352,11 @@
         "Trophy Type": "Combined",
         "Weight": "1.5kg — 5kg3lbs — 11lbs",
         "Plumage": "Bright, Brown, Dark, Leucistic, Ochre, Pale",
+        "Trophies": {
+            "Silver": "2.20",
+            "Gold": "3.60",
+            "Diamond": "4.64"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -368,7 +398,7 @@
                 "Details": {
                     "Common": [
                         "Brown",
-                        "Bright",
+                        "Bright 12.53%)",
                         "Ochra"
                     ],
                     "Very Rare": [
@@ -387,6 +417,11 @@
         "Trophy Type": "Weight",
         "Weight": "? — 6kg? — 13lbs",
         "Fur": "Albino, Dark Brown, Dark Grey, Grey, Light Brown, Molting, White",
+        "Trophies": {
+            "Silver": "2.80",
+            "Gold": "4.40",
+            "Diamond": "5.60"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -448,6 +483,11 @@
         "Trophy Type": "Weight",
         "Weight": "0.7 — 1.60kg0lbs — 4lbs",
         "Fur": "Albino, Black, Chestnut, Dark Brown, Leucistic, Melanistic, Piebald, Silver",
+        "Trophies": {
+            "Silver": "88",
+            "Gold": "124",
+            "Diamond": "151"
+        },
         "Need_Zones": [
             {
                 "Time": "03:00 - 06:00",
@@ -494,6 +534,11 @@
         "Trophy Type": "Weight",
         "Weight": "1 — 2.20kg0lbs — 5lbs",
         "Fur": "Albino, Black, Brown, Leucistic, Light Brown, Melanistic, Piebald, Tawny",
+        "Trophies": {
+            "Silver": "124",
+            "Gold": "172",
+            "Diamond": "208"
+        },
         "Need_Zones": [
             {
                 "Time": "03:00 - 06:00",
@@ -540,6 +585,11 @@
         "Trophy Type": "Weight",
         "Weight": "? — 12.83kg? — 28lbs",
         "Fur": "Albino, Brown, Dark Grey, Dilute, Erythristic Red, Grey, Leucistic, Melanistic, Piebald",
+        "Trophies": {
+            "Silver": "9",
+            "Gold": "13",
+            "Diamond": "16"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -602,6 +652,11 @@
         "Trophy Type": "Weight",
         "Weight": "1kg — 15.4kg2lbs — 34lbs",
         "Fur": "Albino, Dark Red, Melanistic, Orange, Piebald, RedFabled Exclusive: Blood Moon, Candycane, Cherry Blossom, Licorice, Midnight Poppy, Mystic Snowdrop, Peppermint, Rosebud Frost, Scarlet Nightshade",
+        "Trophies": {
+            "Silver": "4.66",
+            "Gold": "10.03",
+            "Diamond": "14.05"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -661,6 +716,11 @@
         "Trophy Type": "Horns",
         "Weight": "25kg — 50kg55lbs — 110lbs",
         "Fur": "Albino, Black, Black Brown, Back White, Blonde, Brown, Dark Brown, Mixed, White, White Brown",
+        "Trophies": {
+            "Silver": "89.44",
+            "Gold": "157.60",
+            "Diamond": "208.71"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -745,6 +805,11 @@
         "Trophy Type": "Antlers",
         "Weight": "? — 35 kg? — 77lbs",
         "Fur": "Albino, Brown, Dark Brown, Dark Grey, Leucistic, Melanistic, Orange, Piebald, Tan",
+        "Trophies": {
+            "Silver": "41",
+            "Gold": "64.3",
+            "Diamond": "81.8"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:00",
@@ -790,7 +855,7 @@
                     ],
                     "Very Rare": [
                         "Albino,",
-                        "Leucistic",
+                        "Leucistic (0.05)",
                         "Melanistic"
                     ]
                 }
@@ -808,7 +873,7 @@
                     ],
                     "Very Rare": [
                         "Albino,",
-                        "Leucistic",
+                        "Leucistic (0.05 %)",
                         "Melanistic"
                     ]
                 }
@@ -824,6 +889,11 @@
         "Trophy Type": "Antlers",
         "Weight": "30kg — 100kg66lbs — 220lbs",
         "Fur": "Albino, Chocolate, Dark, Dark Spotted, Melanistic, Piebald, Red Spotted, Spotted, WhiteFabled Exclusive: Painted, Golden, Mocha, Hooded, Silver",
+        "Trophies": {
+            "Silver": "104.89",
+            "Gold": "187.81",
+            "Diamond": "249.99"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -903,6 +973,11 @@
         "Trophy Type": "Antlers",
         "Weight": "25 kg — 75kg55lbs — 165lbs",
         "Fur": "Albino, Black, Brown, Dark Spotted, Red Spotted, Spotted",
+        "Trophies": {
+            "Silver": "53.29",
+            "Gold": "136.40",
+            "Diamond": "198.74"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 05:30",
@@ -960,6 +1035,11 @@
         "Trophy Type": "Tusks",
         "Weight": "25kg — 240kg55lbs — 529lbs",
         "Fur": "Albino, Blackgold, Brown, Dark Brown, Light Brown, Melanistic, PurplegreyFabled Exclusive: Ash, Brindle, Butterscotch, Chalk, Cinder, Scorch, Smolder, Stitch, Stripple",
+        "Trophies": {
+            "Silver": "37.50",
+            "Gold": "98.50",
+            "Diamond": "144.25"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -1021,6 +1101,11 @@
         "Trophy Type": "Antlers",
         "Weight": "120kg — 240kg265lbs — 529lbs",
         "Fur": "Albino, Brown, Dark Brown, Erythristic, Leucistic, Light Brown, Melanistic, PiebaldFabled Exclusive: Spotted",
+        "Trophies": {
+            "Silver": "90.50",
+            "Gold": "182.25",
+            "Diamond": "251.07"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",

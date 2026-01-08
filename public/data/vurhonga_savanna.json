@@ -7,6 +7,11 @@
         "Trophy Type": "Weight",
         "Weight": "500g — 920g1.1lbs — 2lbs",
         "Plumage": "Brown, Dark, Eclipse, Grey, Hybrid, Leucistic",
+        "Trophies": {
+            "Silver": "590",
+            "Gold": "770",
+            "Diamond": "905"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 05:30",
@@ -54,12 +59,12 @@
                         "Grey"
                     ],
                     "Rare": [
-                        "Eclipse"
+                        "Eclipse (0,27%)"
                     ],
                     "Very Rare": [
-                        "Leucistic Variation 1,",
-                        "Leucistic Variation 2",
-                        "Hybrid"
+                        "Leucistic Variation 1 (0,04%),",
+                        "Leucistic Variation 2 (0,04%),",
+                        "Hybrid (0,04%)"
                     ]
                 }
             },
@@ -71,11 +76,11 @@
                         "Grey"
                     ],
                     "Rare": [
-                        "Dark"
+                        "Dark (0,27%)"
                     ],
                     "Very Rare": [
-                        "Leucistic Variation 1,",
-                        "Leucistic Variation 2 "
+                        "Leucistic Variation 1 (0,04%),",
+                        "Leucistic Variation 2 (0,04%)"
                     ]
                 }
             }
@@ -90,6 +95,11 @@
         "Trophy Type": "Weight",
         "Weight": "? — 5.8kg? — 13lbs",
         "Fur": "Brown, Chestnut, Grey, Light Gray",
+        "Trophies": {
+            "Silver": "2.4",
+            "Gold": "4.1",
+            "Diamond": "5.3"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -147,6 +157,11 @@
         "Trophy Type": "Weight",
         "Weight": "? — 14kg? — 31lbs",
         "Fur": "Albino, Light Brown, Grey, Grey Brown, Melanistic",
+        "Trophies": {
+            "Silver": "16.8",
+            "Gold": "23.8",
+            "Diamond": "29.1"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -203,6 +218,11 @@
         "Trophy Type": "Horns",
         "Weight": "27kg — 42kg60lbs — 93lbs",
         "Fur": "'Albino, Black Brown, Orange, Tan",
+        "Trophies": {
+            "Silver": "36.46",
+            "Gold": "60.51",
+            "Diamond": "78.55"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",
@@ -271,6 +291,11 @@
         "Trophy Type": "Tusks",
         "Weight": "45kg — 150kg99lbs — 331lbs",
         "Fur": "Albino, Dark, Grey, Red Brown, Red",
+        "Trophies": {
+            "Silver": "24.6",
+            "Gold": "49.8",
+            "Diamond": "58.2"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -344,6 +369,11 @@
         "Trophy Type": "Horns",
         "Weight": "50kg — 105kg110lbs — 231lbs",
         "Fur": "Albino, Grey, Dark Brown, Dusky, Melanistic, Red Brown",
+        "Trophies": {
+            "Silver": "107.8",
+            "Gold": "132.8",
+            "Diamond": "151.6"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -414,6 +444,11 @@
         "Trophy Type": "Horns",
         "Weight": "190kg — 290kg419lbs — 639lbs",
         "Fur": "Albino, Crowned, Dark Grey, Gold, Grey",
+        "Trophies": {
+            "Silver": "21.6",
+            "Gold": "30.8",
+            "Diamond": "37.6"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -486,6 +521,11 @@
         "Trophy Type": "Horns",
         "Weight": "100kg — 240kg220lbs — 529lbs",
         "Fur": "Beige, Dark, Grey, Light Grey, Gold",
+        "Trophies": {
+            "Silver": "194.8",
+            "Gold": "276.3",
+            "Diamond": "337.5"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -542,6 +582,11 @@
         "Trophy Type": "Horns",
         "Weight": "360kg — 950kg794lbs — 2094lbs",
         "Fur": "Albino, Black, Brown, Grey, Leucistic",
+        "Trophies": {
+            "Silver": "73.3",
+            "Gold": "117.93",
+            "Diamond": "151.35"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:30",
@@ -602,6 +647,11 @@
         "Trophy Type": "Skull",
         "Weight": "135kg — 270kg298lbs — 595lbs",
         "Fur": "Albino, Blonde, Dark-Brown, Light Brown, Tan",
+        "Trophies": {
+            "Silver": "38",
+            "Gold": "44",
+            "Diamond": "48.5"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 04:30",

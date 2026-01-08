@@ -7,6 +7,11 @@
         "Trophy Type": "Weight",
         "Weight": "110g — 482g0.2lbs — 1.1lbs",
         "Plumage": "Beige, Cinnamon, Melanistic, Piebald, Red",
+        "Trophies": {
+            "Silver": "3.4",
+            "Gold": "4.1",
+            "Diamond": "4.6"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -45,6 +50,11 @@
         "Trophy Type": "Horns",
         "Weight": "? — 51kg? — 112lbs",
         "Fur": "Albino, Beige, Brown, Dark Brown, Leucistic, Melanistic, Piebald",
+        "Trophies": {
+            "Silver": "71.8",
+            "Gold": "106.3",
+            "Diamond": "132.2"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -95,6 +105,11 @@
         "Trophy Type": "Antlers",
         "Weight": "? — 75kg? — 165lbs",
         "Fur": "Albino, Dark, Melanistic, Orange, Piebald, Spotted",
+        "Trophies": {
+            "Silver": "72.8",
+            "Gold": "155.3",
+            "Diamond": "217.2"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -173,6 +188,11 @@
         "Trophy Type": "Tusks",
         "Weight": "14 kg — 31 kg31lbs — 68lbs",
         "Fur": "Albino, Brown, Dark-Brown, Dark-Grey, Grey, Leucistic, Melanistic, Ochre",
+        "Trophies": {
+            "Silver": "37.50",
+            "Gold": "98.50",
+            "Diamond": "144.20"
+        },
         "Need_Zones": [
             {
                 "Time": "00 : 00 - 03 : 30",
@@ -234,6 +254,11 @@
         "Trophy Type": "Skull",
         "Weight": "29kg — 105kg64lbs — 231lbs",
         "Fur": "Albino, Dark Red, Grey, Light Brown, Melanistic",
+        "Trophies": {
+            "Silver": "32",
+            "Gold": "36",
+            "Diamond": "39"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 – 03:30",
@@ -294,6 +319,11 @@
         "Trophy Type": "Antlers",
         "Weight": "70kg — 210kg154lbs — 463lbs",
         "Fur": "Albino, Blonde, Brown, Dilute, Grey, Leucistic, Melanistic, PiebaldFabled Exclusive: Cinnamon Stripes, Cobweb Enigma, Dripple Drizzle, Dusky Drift, Milky Way, Petal Puff",
+        "Trophies": {
+            "Silver": "98.36",
+            "Gold": "220.54",
+            "Diamond": "312.17"
+        },
         "Need_Zones": [],
         "Variants": [
             {
@@ -327,6 +357,11 @@
         "Trophy Type": "Antlers",
         "Weight": "120kg — 240kg265lbs — 529lbs",
         "Fur": "Albino, Brown, Dark Brown, Erythristic, Leucistic, Light Brown, Melanistic, PiebaldFabled Exclusive: Spotted",
+        "Trophies": {
+            "Silver": "90.50",
+            "Gold": "182.25",
+            "Diamond": "251.07"
+        },
         "Need_Zones": [
             {
                 "Time": "00:00 - 03:00",
@@ -389,6 +424,11 @@
         "Trophy Type": "Horns",
         "Weight": "? — 1250kg? — 2756lbs",
         "Fur": "Albino , Black, Brown, Grey, Orange",
+        "Trophies": {
+            "Silver": "84.27",
+            "Gold": "138.15",
+            "Diamond": "167.54"
+        },
         "Need_Zones": [],
         "Variants": [
             {

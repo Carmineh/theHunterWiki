@@ -1,6 +1,12 @@
 export interface NeedZone {
     Time: string;
-    Activity: string; // "Resting", "Feeding", "Drinking"
+    Activity: string;
+}
+
+interface TrophyRatings {
+    Silver: string | number;
+    Gold: string | number;
+    Diamond: string | number;
 }
 
 export interface FurVariant {
@@ -21,4 +27,5 @@ export interface Animal {
     Weight: string;
     Need_Zones: NeedZone[];
     Variants: FurVariant[];
+    Trophy_Ratings: TrophyRatings;
 }

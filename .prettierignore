@@ -1,0 +1,27 @@
+# Dipendenze
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist
+build
+out
+.overwolf
+
+# Immagini e Asset binari
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+
+# Configurazione OS
+.DS_Store
+Thumbs.db
+
+# Altro
+.git
+.vscode
