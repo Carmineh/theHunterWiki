@@ -199,7 +199,6 @@ class InGameController {
       });
 
       await Promise.all(promises);
-      console.log('Database loaded.', Object.keys(this.animalsData).length, 'total animals.');
     } catch (error) {
       console.error('Critical error in loadData:', error);
     }
@@ -240,7 +239,7 @@ class InGameController {
 
       if (animalIds.length === 0) {
         container.innerHTML =
-          '<p style="padding:20px; color:#aaa;">Nessun dato per questa mappa.</p>';
+          '<p style="padding:20px; color:#aaa;">No data for this map.</p>';
       }
 
       animalIds.forEach((id) => {
@@ -408,29 +407,23 @@ class InGameController {
         `;
     });
 
-    // --- Icone Header ---
     const animalIcon = `img/animals/${animal.id}.png`;
     const classIcon = `img/classes/class_${animal.Class}.png`;
-
-    // --- CSS Personalizzato (Aggiornato per supportare entrambi) ---
     const customStyle = `
         <style>
             .details-header { margin-top: 0; margin-bottom: 10px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: #ccc; }
             
-            /* Badge Rarità */
             .rarity-badges { display: flex; gap: 8px; margin-bottom: 15px; }
             .rarity-badge { padding: 4px 10px; border-radius: 4px; font-size: 12px; font-weight: bold; color: #fff; text-transform: uppercase; }
             .badge-common { background-color: #7f8c8d; }
             .badge-rare { background-color: #3498db; }
             .badge-very-rare { background-color: #9b59b6; }
             
-            /* Lista Condivisa (Need Zones & Fur) */
             .details-list { list-style: none; padding: 0; margin: 0; }
             .detail-list-item { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
             .detail-left { display: flex; align-items: center; gap: 10px; }
             .detail-right { display: flex; align-items: center; }
 
-            /* Stili Specifici Elementi */
             .detail-name { font-size: 14px; color: #ecf0f1; text-transform: capitalize; }
             .fur-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
             .dot-common { background-color: #7f8c8d; }
