@@ -3,7 +3,7 @@
   "type": "WebApp",
   "meta": {
     "name": "theHunterWiki",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum-overwolf-version": "0.198.0",
     "author": "Manny",
     "description": "Overwolf extension for theHunter: COTW. Keep a complete wiki always at hand directly in-game.",
