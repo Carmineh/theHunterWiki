@@ -76,23 +76,19 @@ app-folder/
 ### Types of Contributions
 
 1. **Bug Fixes**
-
    - Check existing issues or create a new one
    - Reference the issue in your PR
 
 2. **New Features**
-
    - Open an issue to discuss the feature first
    - Wait for maintainer approval before implementing
 
 3. **Data Updates**
-
    - Add new animals when DLC releases
    - Update existing animal data (need zones, trophies, etc.)
    - Add new maps
 
 4. **UI/UX Improvements**
-
    - Visual enhancements
    - Performance optimizations
    - Accessibility improvements
@@ -113,7 +109,6 @@ app-folder/
    ```
 
 2. **Make Your Changes**
-
    - Write clean, readable code
    - Follow existing code style
    - Test thoroughly in Overwolf
@@ -128,7 +123,6 @@ app-folder/
    ```
 
    **Commit Message Format:**
-
    - `feat:` for new features
    - `fix:` for bug fixes
    - `data:` for data updates
@@ -136,13 +130,30 @@ app-folder/
    - `docs:` for documentation
    - `refactor:` for code refactoring
 
-4. **Push to Your Fork**
+4. **Format Code with Prettier** ⚠️ **REQUIRED before PR**
+
+   Before pushing your changes, you **must** format all code to maintain consistent style and indentation:
+
+   ```bash
+   npx prettier --write .
+   ```
+
+   Then commit the formatting changes:
+
+   ```bash
+   git add .
+   git commit -m "style: format code with prettier"
+   ```
+
+   > **Note:** PRs without proper code formatting will not be accepted. Always run Prettier before pushing.
+
+5. **Push to Your Fork**
 
    ```bash
    git push origin feature/your-feature-name
    ```
 
-5. **Open a Pull Request**
+6. **Open a Pull Request**
    - Go to the original repository
    - Click "New Pull Request"
    - Provide a clear title and description
@@ -185,7 +196,6 @@ Before submitting a PR:
    Ensure no TypeScript errors
 
 2. **Overwolf Test**
-
    - Load app in Overwolf
    - Test in theHunter: Call of the Wild
    - Verify all modified features work

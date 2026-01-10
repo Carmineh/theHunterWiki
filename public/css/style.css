@@ -554,6 +554,114 @@ h2 {
 }
 
 /* =========================================
+   ANIMAL DETAIL - ADDITIONAL STYLES
+   ========================================= */
+.details-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ccc;
+}
+
+.rarity-badges {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.rarity-badge {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.badge-common {
+  background-color: #7f8c8d;
+}
+
+.badge-rare {
+  background-color: #3498db;
+}
+
+.badge-very-rare {
+  background-color: #9b59b6;
+}
+
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.detail-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-right {
+  display: flex;
+  align-items: center;
+}
+
+.detail-name {
+  font-size: 14px;
+  color: #ecf0f1;
+  text-transform: capitalize;
+}
+
+.fur-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-common {
+  background-color: #7f8c8d;
+}
+
+.dot-rare {
+  background-color: #3498db;
+}
+
+.dot-very-rare {
+  background-color: #9b59b6;
+}
+
+.zone-icon {
+  height: 20px;
+  width: auto;
+  opacity: 0.9;
+}
+
+.zone-time {
+  font-size: 13px;
+  color: #bdc3c7;
+  font-family: 'Consolas', monospace;
+  letter-spacing: 0.5px;
+}
+
+.fur-sex-icon {
+  height: 14px;
+  width: auto;
+  opacity: 0.8;
+}
+
+/* =========================================
    AD FOOTER
    ========================================= */
 .ad-footer {

@@ -820,7 +820,22 @@
         ]
       }
     ],
-    "Variants": [],
+    "Variants": [
+      {
+        "Sex": "Male / Female",
+        "Details": {
+          "Common": ["Olive", "Grey", "Dark Brown"],
+          "Very Rare": [
+            "Albino,",
+            "Leucistic ",
+            "Light Brown",
+            "Melanistic",
+            "Piebald Variation 1,",
+            "Piebald Variation 2"
+          ]
+        }
+      }
+    ],
     "img_ext": "png"
   },
   {
