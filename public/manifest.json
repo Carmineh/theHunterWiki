@@ -28,6 +28,14 @@
         "is_background_page": true,
         "visible": false
       },
+      "desktop": {
+        "file": "desktop.html",
+        "desktop_only": true,
+        "size": { "width": 1100, "height": 750 },
+        "resizable": true,
+        "show_in_taskbar": true,
+        "grab_keyboard_focus": true
+      },
       "in_game": {
         "file": "in_game.html",
         "in_game_only": true,

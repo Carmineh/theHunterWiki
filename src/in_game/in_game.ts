@@ -1,10 +1,11 @@
 import { OWGames, OWGamesEvents, OWHotkeys } from '@overwolf/overwolf-api-ts';
+import { AppWindow } from '../AppWindow';
 import { DataManager } from './DataManager';
 import { MapRenderer } from './MapRenderer';
 import { AnimalDetailRenderer } from './AnimalDetailRenderer';
 import { SearchHandler } from './SearchHandler';
 
-class InGameController {
+class InGameController extends AppWindow {
   private dataManager: DataManager;
   private mapRenderer: MapRenderer;
   private animalDetailRenderer: AnimalDetailRenderer;
@@ -12,6 +13,7 @@ class InGameController {
   private lastOpenedMapName: string | null = null;
 
   constructor() {
+    super('in_game');
     this.dataManager = new DataManager();
     this.mapRenderer = new MapRenderer();
     this.animalDetailRenderer = new AnimalDetailRenderer();
@@ -23,6 +25,7 @@ class InGameController {
     await this.dataManager.loadData();
     this.renderMaps();
     this.initAds();
+    this.updateHotkeyDisplay();
 
     document
       .getElementById('btn-back-home')
@@ -35,6 +38,29 @@ class InGameController {
     searchInput?.addEventListener('input', (e) =>
       this.handleSearch((e.target as HTMLInputElement).value)
     );
+
+    // Listen for hotkey changes
+    overwolf.settings.hotkeys.onChanged.addListener(() => this.updateHotkeyDisplay());
+
+    document.getElementById('bug-report-link')?.addEventListener('click', () => {
+      overwolf.utils.openUrlInDefaultBrowser('https://github.com/Carmineh/theHunterWiki/issues');
+    });
+
+    document.getElementById('hotkey-link')?.addEventListener('click', () => {
+      window.location.href = 'overwolf://settings/hotkeys-editing/theHunterWiki/show_hide_wiki';
+    });
+  }
+
+  private async updateHotkeyDisplay() {
+    overwolf.settings.hotkeys.get((res) => {
+      if (res && res.games && res.games[23010]) {
+        const hotkey = res.games[23010].find((h) => h.name === 'show_hide_wiki');
+        if (hotkey) {
+          const displays = document.querySelectorAll('.hotkey-display');
+          displays.forEach((el) => ((el as HTMLElement).innerText = hotkey.binding));
+        }
+      }
+    });
   }
 
   private initAds() {

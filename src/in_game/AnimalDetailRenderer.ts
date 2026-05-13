@@ -105,6 +105,7 @@ export class AnimalDetailRenderer {
       mergedByReserve.set(reserveId, [...existing, ...zones]);
     };
 
+    // 2-column layout: Need Zones vs Variants
     (animal.Need_Zones as Array<NeedZone | NeedZoneGroup>).forEach((entry) => {
       if (entry && typeof entry === 'object' && 'Time' in entry) {
         addZones('unknown', [entry as NeedZone]);

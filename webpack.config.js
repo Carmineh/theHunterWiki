@@ -8,6 +8,7 @@ module.exports = (env) => ({
   entry: {
     background: './src/background/background.ts',
     in_game: './src/in_game/in_game.ts',
+    desktop: './src/desktop/desktop.ts',
   },
   devtool: 'inline-source-map',
   module: {
@@ -40,6 +41,11 @@ module.exports = (env) => ({
       template: './src/in_game/in_game.html',
       filename: path.resolve(__dirname, './dist/in_game.html'),
       chunks: ['in_game'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/desktop/desktop.html',
+      filename: path.resolve(__dirname, './dist/desktop.html'),
+      chunks: ['desktop'],
     }),
     new OverwolfPlugin(env),
   ],

@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body class="dark-theme">
+    <div id="window-header" class="window-header">
+      <div class="logo">theHunter<span>WIKI</span></div>
+      <div class="window-controls">
+        <button id="minimizeButton" class="control-btn minimize">_</button>
+        <button id="closeButton" class="control-btn close">×</button>
+      </div>
+    </div>
+
     <header>
-      <div class="logo">theHunterWIKI</div>
-      <input type="text" id="search-bar" placeholder="Search an animal..." />
-      <div id="search-results" class="search-dropdown hidden"></div>
+      <div class="search-wrapper">
+        <input type="text" id="search-bar" placeholder="Search an animal..." />
+        <div id="search-results" class="search-dropdown hidden"></div>
+      </div>
+      <div class="status-container">
+        <a id="bug-report-link" class="hotkey-link" title="Report a Bug">
+          <img src="../../img/icons/bug.png" alt="Bug" class="settings-icon" />
+        </a>
+        <a id="hotkey-link" class="hotkey-link" title="Change Hotkey">
+          <img src="../../img/icons/settings.png" alt="Settings" class="settings-icon" />
+        </a>
+      </div>
     </header>
 
     <main>
