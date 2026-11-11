@@ -1,77 +1,96 @@
-const TARGET_GAME_ID = 23010;
-const IN_GAME_WINDOW = 'in_game';
-const DESKTOP_WINDOW = 'desktop';
+import { GAME_ID, TOGGLE_HOTKEY, WINDOWS } from '../wiki/constants';
+import { WindowPlacement } from './WindowPlacement';
 
-async function openWindow(windowName: string): Promise<void> {
-  return new Promise((resolve) => {
-    overwolf.windows.obtainDeclaredWindow(windowName, (result: any) => {
-      if (result.status === 'success') {
-        overwolf.windows.restore(windowName, () => resolve());
-      }
-    });
-  });
-}
+/**
+ * Background controller: decides which window to show.
+ *
+ * Game not running -> desktop window (on the monitor it was last closed on).
+ * Game running     -> in-game overlay; with 2+ monitors the desktop window
+ *                     also opens on the 2nd screen, otherwise it is minimized.
+ * Game closed      -> in-game overlay closes, desktop window goes back to the main screen.
+ */
+
+const desktop = new WindowPlacement(WINDOWS.DESKTOP);
 
 function isGameRunning(): Promise<boolean> {
   return new Promise((resolve) => {
-    overwolf.games.getRunningGameInfo((res) => {
-      if (res && res.isRunning && res.classId === TARGET_GAME_ID) {
-        resolve(true);
-      } else {
-        resolve(false);
-      }
+    overwolf.games.getRunningGameInfo((info) => {
+      resolve(Boolean(info?.isRunning && info.classId === GAME_ID));
     });
   });
 }
 
-async function toggleWindow() {
-  const gameRunning = await isGameRunning();
-  const windowName = gameRunning ? IN_GAME_WINDOW : DESKTOP_WINDOW;
+function showInGameWindow(): void {
+  overwolf.windows.obtainDeclaredWindow(WINDOWS.IN_GAME, (result) => {
+    if (result.success) overwolf.windows.restore(WINDOWS.IN_GAME);
+  });
+}
 
-  overwolf.windows.obtainDeclaredWindow(windowName, (result: any) => {
-    if (result.status === 'success') {
-      if (result.window.isVisible) {
-        overwolf.windows.hide(windowName);
-      } else {
-        overwolf.windows.restore(windowName);
-      }
+function toggleInGameWindow(): void {
+  overwolf.windows.obtainDeclaredWindow(WINDOWS.IN_GAME, (result) => {
+    if (!result.success) return;
+    if (result.window.isVisible) {
+      overwolf.windows.hide(WINDOWS.IN_GAME);
+    } else {
+      overwolf.windows.restore(WINDOWS.IN_GAME);
     }
   });
 }
 
-async function onAppLaunch() {
-  const gameRunning = await isGameRunning();
-  if (gameRunning) {
-    await openWindow(IN_GAME_WINDOW);
+function toggleDesktopWindow(): void {
+  overwolf.windows.obtainDeclaredWindow(WINDOWS.DESKTOP, (result) => {
+    if (!result.success) return;
+    if (result.window.isVisible) {
+      overwolf.windows.hide(WINDOWS.DESKTOP);
+    } else {
+      desktop.show('last');
+    }
+  });
+}
+
+/** While playing, the desktop window belongs on the 2nd screen (if any). */
+async function onGameStarted(): Promise<void> {
+  if (await desktop.hasSecondaryMonitor()) {
+    desktop.show('secondary', false); // don't steal focus from the game
   } else {
-    await openWindow(DESKTOP_WINDOW);
+    // Overwolf requires a desktop window to stay open while the app runs:
+    // minimize it instead of closing it (its ads pause while minimized).
+    desktop.minimize();
   }
 }
 
-// Handle app launch from Overwolf client
+function onGameStopped(): void {
+  overwolf.windows.close(WINDOWS.IN_GAME);
+  desktop.forgetLastMonitor();
+  desktop.moveIfOpen('primary');
+}
+
+async function onAppLaunch(): Promise<void> {
+  if (await isGameRunning()) {
+    showInGameWindow();
+    await onGameStarted();
+  } else {
+    await desktop.show('last');
+  }
+}
+
+// App launched from the Overwolf dock / desktop shortcut
 overwolf.extensions.onAppLaunchTriggered.addListener(onAppLaunch);
-overwolf.windows.onMainWindowRestored.addListener(onAppLaunch);
 
-// Handle hotkeys
-overwolf.settings.hotkeys.onPressed.addListener((arg) => {
-  if (arg.name === 'show_hide_wiki') {
-    toggleWindow();
-  }
+// Show/Hide hotkey: toggles the overlay in-game, the desktop window otherwise
+overwolf.settings.hotkeys.onPressed.addListener(async (event) => {
+  if (event.name !== TOGGLE_HOTKEY) return;
+  if (await isGameRunning()) toggleInGameWindow();
+  else toggleDesktopWindow();
 });
 
-// Handle game launch/close events
-overwolf.games.onGameInfoUpdated.addListener(async (res) => {
-  const isRunning = res && res.gameInfo && res.gameInfo.isRunning && res.gameInfo.classId === TARGET_GAME_ID;
-  
-  if (isRunning) {
-    // Game is running, close the desktop window if open
-    overwolf.windows.close(DESKTOP_WINDOW);
-  } else if (res.gameChanged && res.runningChanged && !res.gameInfo?.isRunning) {
-    // Game closed, close the in-game window
-    overwolf.windows.close(IN_GAME_WINDOW);
-  }
+// React to the game starting or stopping
+overwolf.games.onGameInfoUpdated.addListener((event) => {
+  if (!event?.runningChanged) return;
+
+  const gameRunning = Boolean(event.gameInfo?.isRunning && event.gameInfo.classId === GAME_ID);
+  if (gameRunning) onGameStarted();
+  else onGameStopped();
 });
 
-// Initial check on load
 onAppLaunch();
-

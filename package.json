@@ -1,6 +1,6 @@
 {
   "name": "theHunterWiki",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Overwolf extension for theHunter: COTW. Keep a complete wiki always at hand directly in-game.",
   "main": "index.js",
   "scripts": {

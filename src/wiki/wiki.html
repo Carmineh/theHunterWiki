@@ -1,0 +1,93 @@
+<!doctype html>
+<!--
+  Shared template for the desktop and in-game windows (see webpack.config.js).
+  `htmlWebpackPlugin.options.isDesktop` switches the few window-specific parts.
+-->
+<% const isDesktop = htmlWebpackPlugin.options.isDesktop; %>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>theHunterWiki</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Title bar (drag area + window controls) -->
+    <div id="window-header" class="window-header">
+      <div class="logo">theHunter<span>WIKI</span></div>
+      <div class="window-controls">
+        <button id="minimizeButton" class="control-btn" title="Minimize">&#x2013;</button>
+        <button id="maximizeButton" class="control-btn" title="Maximize / Restore">&#x25A1;</button>
+        <button id="closeButton" class="control-btn close" title="Close">&#x2715;</button>
+      </div>
+    </div>
+
+    <!-- Toolbar: search, hotkey reminder, bug report -->
+    <div class="toolbar">
+      <div class="search-wrapper">
+        <input type="text" id="search-bar" placeholder="Search an animal..." autocomplete="off" />
+        <div id="search-results" class="search-dropdown hidden"></div>
+      </div>
+
+      <a id="hotkey-link" class="hotkey-chip" title="Change hotkey">
+        <span class="hotkey-chip-label">Show/Hide</span>
+        <kbd class="hotkey-display">Ctrl+B</kbd>
+        <img src="img/icons/settings.png" alt="" class="toolbar-icon" />
+      </a>
+
+      <button id="help-button" class="toolbar-btn toolbar-btn-text" title="How to use theHunterWiki">?</button>
+
+      <button id="bug-report-link" class="toolbar-btn" title="Report a bug">
+        <img src="img/icons/bug.png" alt="Report a bug" class="toolbar-icon" />
+      </button>
+    </div>
+
+    <div class="layout">
+      <main>
+        <section id="view-home" class="view">
+          <h2 class="view-title">Reserves</h2>
+          <div class="cards-grid" id="maps-container"></div>
+        </section>
+
+        <section id="view-map" class="view hidden">
+          <div class="view-header">
+            <button id="btn-back-home" class="btn-back">&#x2190; Reserves</button>
+            <h2 id="current-map-title" class="view-title"></h2>
+          </div>
+          <div class="cards-grid" id="map-animals-container"></div>
+        </section>
+
+        <section id="view-animal" class="view hidden">
+          <button id="btn-back-map" class="btn-back">&#x2190; Back</button>
+          <div id="animal-detail-content" class="animal-detail"></div>
+        </section>
+      </main>
+
+      <!-- Side column: 400x300 ad + hotkey reminder -->
+      <aside class="sidebar">
+        <div id="ad-side" class="ad-slot ad-slot-side"></div>
+
+        <div class="info-card">
+          <% if (isDesktop) { %>
+          <div class="when-game-stopped">
+            <p class="info-title">Playing theHunter: Call of the Wild?</p>
+            <p>Launch the game and press <kbd class="hotkey-display">Ctrl+B</kbd> to open the wiki in-game.</p>
+          </div>
+          <div class="when-game-running">
+            <p class="info-title">Game running</p>
+            <p>Press <kbd class="hotkey-display">Ctrl+B</kbd> in-game to show or hide the wiki over the game.</p>
+          </div>
+          <% } else { %>
+          <p class="info-title">Quick tip</p>
+          <p>Press <kbd class="hotkey-display">Ctrl+B</kbd> to show or hide this window while you play.</p>
+          <% } %>
+        </div>
+      </aside>
+
+      <!-- Bottom 728x90 ad -->
+      <footer class="ad-footer">
+        <div id="ad-bottom" class="ad-slot ad-slot-bottom"></div>
+      </footer>
+    </div>
+  </body>
+</html>

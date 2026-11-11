@@ -1,6 +1,6 @@
 export const AVAILABLE_MAPS = [
   { name: 'Hirschfelden', id: 'hirschfelden_hunting_reserve' },
-  { name: 'Layton Lake District ', id: 'layton_lake_district' },
+  { name: 'Layton Lake District', id: 'layton_lake_district' },
   { name: 'Medved-Taiga National Park', id: 'medved-taiga_national_park' },
   { name: 'Vurhonga Savanna Reserve', id: 'vurhonga_savanna' },
   { name: 'Parque Fernando', id: 'parque_fernando' },

@@ -4,11 +4,23 @@ const path = require('path'),
   { CleanWebpackPlugin } = require('clean-webpack-plugin'),
   OverwolfPlugin = require('./overwolf.webpack');
 
+const dist = path.resolve(__dirname, 'dist/');
+
+/** One HTML page per Overwolf window; `options` are exposed to the template. */
+const page = (name, template, options = {}) =>
+  new HtmlWebpackPlugin({
+    template,
+    filename: path.join(dist, `${name}.html`),
+    chunks: [name],
+    ...options,
+  });
+
 module.exports = (env) => ({
   entry: {
     background: './src/background/background.ts',
-    in_game: './src/in_game/in_game.ts',
     desktop: './src/desktop/desktop.ts',
+    in_game: './src/in_game/in_game.ts',
+    uninstall: './src/uninstall/uninstall.ts',
   },
   devtool: 'inline-source-map',
   module: {
@@ -24,7 +36,7 @@ module.exports = (env) => ({
     extensions: ['.ts', '.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'dist/'),
+    path: dist,
     filename: 'js/[name].js',
   },
   plugins: [
@@ -32,21 +44,10 @@ module.exports = (env) => ({
     new CopyPlugin({
       patterns: [{ from: 'public', to: './' }],
     }),
-    new HtmlWebpackPlugin({
-      template: './src/background/background.html',
-      filename: path.resolve(__dirname, './dist/background.html'),
-      chunks: ['background'],
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/in_game/in_game.html',
-      filename: path.resolve(__dirname, './dist/in_game.html'),
-      chunks: ['in_game'],
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/desktop/desktop.html',
-      filename: path.resolve(__dirname, './dist/desktop.html'),
-      chunks: ['desktop'],
-    }),
+    page('background', './src/background/background.html'),
+    page('uninstall', './src/background/background.html'),
+    page('desktop', './src/wiki/wiki.html', { isDesktop: true }),
+    page('in_game', './src/wiki/wiki.html', { isDesktop: false }),
     new OverwolfPlugin(env),
   ],
 });

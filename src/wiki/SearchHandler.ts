@@ -1,6 +1,5 @@
 import { AnimalData } from './types';
 
-
 export class SearchHandler {
   handleSearch(
     query: string,

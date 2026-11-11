@@ -23,3 +23,6 @@ yarn-error.log*
 
 # Overwolf packages
 *.opk
+
+# Private files (QA reports, etc.)
+private/

@@ -3,7 +3,6 @@ import { AnimalData, NeedZone, NeedZoneGroup, AVAILABLE_MAPS } from './types';
 export class AnimalDetailRenderer {
   render(animal: AnimalData, container: HTMLElement): void {
     const needZoneGroups = this.normalizeNeedZones(animal);
-    let currentZoneGroupIndex = 0;
 
     const trophies = animal.Trophies ||
       animal.Trophy_Ratings || { Silver: '-', Gold: '-', Diamond: '-' };
@@ -17,7 +16,7 @@ export class AnimalDetailRenderer {
     container.innerHTML = `
         <div class="animal-header">
             <div class="header-left">
-                <img src="${animalIcon}" class="animal-icon-large" onerror="this.src='https://via.placeholder.com/100'">
+                <img src="${animalIcon}" class="animal-icon-large" onerror="this.style.visibility='hidden'">
                 <h1>${animal.Name}</h1>
             </div>
             
@@ -85,13 +84,13 @@ export class AnimalDetailRenderer {
                 </div>
 
                 <ul class="details-list">
-                    ${furListHtml || '<li style="color:#666; padding:10px 0;">No variant data.</li>'}
+                    ${furListHtml || '<li class="empty-state">No variant data.</li>'}
                 </ul>
             </div>
         </div>
     `;
 
-    this.setupNeedZoneNavigation(container, needZoneGroups, currentZoneGroupIndex);
+    this.setupNeedZoneNavigation(container, needZoneGroups, 0);
   }
 
   private normalizeNeedZones(animal: AnimalData): { reserveId: string; zones: NeedZone[] }[] {
@@ -105,7 +104,7 @@ export class AnimalDetailRenderer {
       mergedByReserve.set(reserveId, [...existing, ...zones]);
     };
 
-    // 2-column layout: Need Zones vs Variants
+    // Entries are either a single NeedZone (legacy) or { reserveId: NeedZone[] } groups
     (animal.Need_Zones as Array<NeedZone | NeedZoneGroup>).forEach((entry) => {
       if (entry && typeof entry === 'object' && 'Time' in entry) {
         addZones('unknown', [entry as NeedZone]);
@@ -232,7 +231,7 @@ export class AnimalDetailRenderer {
       if (!zoneLabelEl || !zoneListEl) return;
       if (needZoneGroups.length === 0) {
         zoneLabelEl.innerText = 'No Zones';
-        zoneListEl.innerHTML = '<li style="color:#666; padding:10px 0;">No data available.</li>';
+        zoneListEl.innerHTML = '<li class="empty-state">No data available.</li>';
         if (prevBtn) prevBtn.disabled = true;
         if (nextBtn) nextBtn.disabled = true;
         return;
@@ -260,7 +259,7 @@ export class AnimalDetailRenderer {
         .join('');
 
       zoneListEl.innerHTML =
-        html || '<li style="color:#666; padding:10px 0;">No data available.</li>';
+        html || '<li class="empty-state">No data available.</li>';
 
       const multiple = needZoneGroups.length > 1;
       if (prevBtn) prevBtn.disabled = !multiple;

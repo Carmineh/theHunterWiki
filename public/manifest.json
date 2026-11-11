@@ -3,12 +3,12 @@
   "type": "WebApp",
   "meta": {
     "name": "theHunterWiki",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimum-overwolf-version": "0.198.0",
     "author": "Manny",
     "description": "Overwolf extension for theHunter: COTW. Keep a complete wiki always at hand directly in-game.",
     "dock_button_title": "theHunterWiki",
-    "icon": "icons/IconMouseNormal.png",
+    "icon": "icons/IconMouseOver.png",
     "icon_gray": "icons/IconMouseNormal.png",
     "launcher_icon": "icons/launcher_icon.ico"
   },
@@ -31,7 +31,9 @@
       "desktop": {
         "file": "desktop.html",
         "desktop_only": true,
-        "size": { "width": 1100, "height": 750 },
+        "native_window": true,
+        "size": { "width": 1200, "height": 800 },
+        "min_size": { "width": 1140, "height": 660 },
         "resizable": true,
         "show_in_taskbar": true,
         "grab_keyboard_focus": true
@@ -41,12 +43,17 @@
         "in_game_only": true,
         "resizable": true,
         "transparent": true,
-        "size": { "width": 1100, "height": 700 },
+        "size": { "width": 1200, "height": 760 },
+        "min_size": { "width": 1140, "height": 660 },
         "keep_window_open": true,
         "focus_game_takeover": "ReleaseOnHidden",
         "grab_keyboard_focus": true,
         "grab_focus_on_show": true
       }
+    },
+    "uninstall_window": {
+      "file": "uninstall.html",
+      "required_runtime": 3000
     },
     "game_targeting": {
       "type": "dedicated",

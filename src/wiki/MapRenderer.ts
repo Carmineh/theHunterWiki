@@ -12,7 +12,7 @@ export class MapRenderer {
 
       div.innerHTML = `
         <div class="item-img-wrapper">
-            <img src="${imgPath}" class="item-img" alt="${mapInfo.name}" onerror="this.src='https://via.placeholder.com/300x169?text=${mapInfo.name}'">
+            <img src="${imgPath}" class="item-img" alt="${mapInfo.name}" onerror="this.style.visibility='hidden'">
         </div>
         <span class="item-title">${mapInfo.name}</span>
       `;
@@ -31,7 +31,7 @@ export class MapRenderer {
     container.innerHTML = '';
 
     if (animalIds.length === 0) {
-      container.innerHTML = '<p style="padding:20px; color:#aaa;">No data for this map.</p>';
+      container.innerHTML = '<p class="empty-state">No data for this map.</p>';
       return;
     }
 
@@ -47,7 +47,7 @@ export class MapRenderer {
 
       div.innerHTML = `
         <div class="item-img-wrapper">
-            <img src="${animalImg}" class="item-img" alt="${animal.Name}" onerror="this.src='https://via.placeholder.com/150'">
+            <img src="${animalImg}" class="item-img" alt="${animal.Name}" onerror="this.style.visibility='hidden'">
             <img src="${classImg}" class="grid-class-badge" onerror="this.style.display='none'">
         </div>
         <span class="item-title">${animal.Name}</span>

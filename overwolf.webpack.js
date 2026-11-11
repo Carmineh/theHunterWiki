@@ -57,6 +57,7 @@ module.exports = class OverwolfPlugin {
         `releases/${name}-${version}${suffix ? `.${suffix}` : ''}.opk`
       );
 
+    await fs.promises.mkdir(path.dirname(opkPath), { recursive: true });
     await this.deleteFile(opkPath);
     await zip.zip(dist, opkPath);
   }

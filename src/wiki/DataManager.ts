@@ -1,10 +1,8 @@
 import { AnimalData, AVAILABLE_MAPS } from './types';
 
-
 export class DataManager {
   private animalsData: Record<string, AnimalData> = {};
   private mapsData: Record<string, string[]> = {};
-
 
   async loadData(): Promise<void> {
     try {
